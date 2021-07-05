@@ -7,7 +7,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-To run the calculation of precision and fintess for the example of the corresponding paper, run 
+To run the calculation of precision and fitness for the example of the corresponding paper, run 
 ```bash
 python main.py
 ```
