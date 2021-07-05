@@ -1,0 +1,2392 @@
+event_activity;event_timestamp;order;item;delivery
+Place Order;606;order1;item2 , item3;
+Confirm Order;606;order1;item2 , item3;
+Pick Item;937;;item3;
+Pick Item;937;;item2;
+Pay Order;937;order1;;
+Place Order;1205;order2;item4 , item5;
+Confirm Order;1205;order2;item4 , item5;
+Item out of stock;1533;;item5;
+Pick Item;1533;;item4;
+Pay Order;1533;order2;;
+Reorder Item;1533;;item5;
+Place Order;1799;order3;item6 , item7;
+Confirm Order;1799;order3;item6 , item7;
+Item out of stock;2126;;item7;
+Item out of stock;2126;;item6;
+Payment Reminder;2126;order3;;
+Reorder Item;2126;;item7;
+Reorder Item;2126;;item6;
+Place Order;2387;order4;item9 , item8;
+Confirm Order;2387;order4;item9 , item8;
+Payment Reminder;2701;order4;;
+Item out of stock;2701;;item8;
+Reorder Item;2701;;item8;
+Item out of stock;2701;;item9;
+Reorder Item;2701;;item9;
+Load Cargo;2759;;item2 , item3;delivery3
+Place Order;2927;order5;item11 , item10;
+Confirm Order;2927;order5;item11 , item10;
+Pay Order;3232;order5;;
+Pick Item;3232;;item10;
+Pick Item;3232;;item11;
+Place Order;3522;order6;item12 , item13;
+Confirm Order;3522;order6;item12 , item13;
+Item out of stock;3800;;item13;
+Pick Item;3800;;item12;
+Payment Reminder;3800;order6;;
+Reorder Item;3800;;item13;
+Place Order;4159;order7;item14 , item15;
+Confirm Order;4159;order7;item14 , item15;
+Item out of stock;4469;;item14;
+Reorder Item;4469;;item14;
+Pay Order;4469;order7;;
+Pick Item;4469;;item15;
+Place Order;4754;order8;item16 , item17;
+Confirm Order;4754;order8;item16 , item17;
+Item out of stock;5067;;item17;
+Payment Reminder;5067;order8;;
+Reorder Item;5067;;item17;
+Pick Item;5067;;item16;
+Load Cargo;5071;;item11 , item4;delivery1
+Place Order;5330;order9;item19 , item18;
+Confirm Order;5330;order9;item19 , item18;
+Item out of stock;5617;;item18;
+Pick Item;5617;;item19;
+Pay Order;5617;order9;;
+Reorder Item;5617;;item18;
+Load Cargo;5638;;item10 , item12;delivery7
+Place Order;5947;order10;item20 , item21;
+Confirm Order;5947;order10;item20 , item21;
+Pay Order;6265;order10;;
+Pick Item;6265;;item21;
+Pick Item;6265;;item20;
+Place Order;6513;order11;item22 , item23;
+Confirm Order;6513;order11;item22 , item23;
+Payment Reminder;6804;order11;;
+Item out of stock;6804;;item23;
+Reorder Item;6804;;item23;
+Item out of stock;6804;;item22;
+Reorder Item;6804;;item22;
+Load Cargo;6865;;item16 , item15;delivery5
+Place Order;7106;order12;item25 , item24;
+Confirm Order;7106;order12;item25 , item24;
+Pay Order;7398;order12;;
+Item out of stock;7398;;item24;
+Reorder Item;7398;;item24;
+Item out of stock;7398;;item25;
+Reorder Item;7398;;item25;
+Place Order;7709;order13;item26 , item27;
+Confirm Order;7709;order13;item26 , item27;
+Load Cargo;8000;;item21 , item19;delivery6
+Payment Reminder;8004;order13;;
+Pick Item;8004;;item26;
+Pick Item;8004;;item27;
+Place Order;8312;order14;item29 , item28;
+Confirm Order;8312;order14;item29 , item28;
+Payment Reminder;8644;order14;;
+Item out of stock;8644;;item29;
+Pick Item;8644;;item28;
+Reorder Item;8644;;item29;
+Place Order;8921;order15;item31 , item30;
+Confirm Order;8921;order15;item31 , item30;
+Item out of stock;9242;;item31;
+Reorder Item;9242;;item31;
+Item out of stock;9242;;item30;
+Pay Order;9242;order15;;
+Reorder Item;9242;;item30;
+Place Order;9503;order16;item32 , item33;
+Confirm Order;9503;order16;item32 , item33;
+Payment Reminder;9798;order16;;
+Pick Item;9798;;item33;
+Item out of stock;9798;;item32;
+Reorder Item;9798;;item32;
+Load Cargo;9821;;item20 , item26;delivery16
+Place Order;10150;order17;item34 , item35;
+Confirm Order;10150;order17;item34 , item35;
+Payment Reminder;10460;order17;;
+Item out of stock;10460;;item34;
+Pick Item;10460;;item35;
+Reorder Item;10460;;item34;
+Load Cargo;10550;;item28 , item27;delivery14
+Place Order;10732;order18;item36 , item37;
+Confirm Order;10732;order18;item36 , item37;
+Payment Reminder;11041;order18;;
+Pick Item;11041;;item37;
+Item out of stock;11041;;item36;
+Reorder Item;11041;;item36;
+Place Order;11283;order19;item39 , item38;
+Confirm Order;11283;order19;item39 , item38;
+Pay Order;11599;order19;;
+Item out of stock;11599;;item39;
+Pick Item;11599;;item38;
+Reorder Item;11599;;item39;
+Place Order;11876;order20;item41 , item40;
+Confirm Order;11876;order20;item41 , item40;
+Fuel Car;11954;;;delivery17
+Pay Order;12180;order20;;
+Item out of stock;12180;;item40;
+Reorder Item;12180;;item40;
+Pick Item;12180;;item41;
+Load Cargo;12231;;item35 , item33;delivery2
+Place Order;12462;order21;item43 , item42;
+Confirm Order;12462;order21;item43 , item42;
+Fuel Car;12480;;;delivery1
+Pay Order;12783;order21;;
+Item out of stock;12783;;item42;
+Reorder Item;12783;;item42;
+Item out of stock;12783;;item43;
+Reorder Item;12783;;item43;
+Place Order;13007;order22;item45 , item44;
+Confirm Order;13007;order22;item45 , item44;
+Fuel Car;13128;;;delivery3
+Pay Order;13312;order22;;
+Item out of stock;13312;;item45;
+Pick Item;13312;;item44;
+Reorder Item;13312;;item45;
+Load Cargo;13426;;item37 , item38;delivery20
+Place Order;13611;order23;item46 , item47;
+Confirm Order;13611;order23;item46 , item47;
+Fuel Car;13729;;;delivery16
+Pay Order;13907;order23;;
+Item out of stock;13907;;item47;
+Reorder Item;13907;;item47;
+Item out of stock;13907;;item46;
+Reorder Item;13907;;item46;
+Start Route;13975;;item11 , item4;delivery1
+Place Order;14241;order24;item49 , item48;
+Confirm Order;14241;order24;item49 , item48;
+Pay Order;14562;order24;;
+Pick Item;14562;;item48;
+Pick Item;14562;;item49;
+Start Route;14641;;item2 , item3;delivery3
+Place Order;14860;order25;item51 , item50;
+Confirm Order;14860;order25;item51 , item50;
+Load Cargo;15020;;item41 , item44;delivery12
+Item out of stock;15189;;item50;
+Pay Order;15189;order25;;
+Reorder Item;15189;;item50;
+Pick Item;15189;;item51;
+Place Order;15469;order26;item52 , item53;
+Confirm Order;15469;order26;item52 , item53;
+Pick Item;15808;;item52;
+Payment Reminder;15808;order26;;
+Item out of stock;15808;;item53;
+Reorder Item;15808;;item53;
+Place Order;16077;order27;item54 , item55;
+Confirm Order;16077;order27;item54 , item55;
+Payment Reminder;16383;order27;;
+Pick Item;16383;;item54;
+Pick Item;16383;;item55;
+Load Cargo;16426;;item49 , item48;delivery8
+Place Order;16708;order28;item57 , item56;
+Confirm Order;16708;order28;item57 , item56;
+Pay Order;17010;order28;;
+Pick Item;17010;;item57;
+Pick Item;17010;;item56;
+Start Route;17072;;item20 , item26;delivery16
+Place Order;17327;order29;item59 , item58;
+Confirm Order;17327;order29;item59 , item58;
+Load Cargo;17613;;item51 , item52;delivery26
+Item out of stock;17646;;item58;
+Pay Order;17646;order29;;
+Pick Item;17646;;item59;
+Reorder Item;17646;;item58;
+Place Order;17885;order30;item61 , item60;
+Confirm Order;17885;order30;item61 , item60;
+Pay Order;18172;order30;;
+Pick Item;18172;;item61;
+Pick Item;18172;;item60;
+Load Cargo;18183;;item55 , item54;delivery21
+Place Order;18506;order31;item63 , item62;
+Confirm Order;18506;order31;item63 , item62;
+Item out of stock;18815;;item63;
+Reorder Item;18815;;item63;
+Pick Item;18815;;item62;
+Payment Reminder;18815;order31;;
+Load Cargo;18865;;item57 , item56;delivery31
+Place Order;19075;order32;item65 , item64;
+Confirm Order;19075;order32;item65 , item64;
+Payment Reminder;19395;order32;;
+Pick Item;19395;;item65;
+Pick Item;19395;;item64;
+Place Order;19678;order33;item66 , item67;
+Confirm Order;19678;order33;item66 , item67;
+Load Cargo;19997;;item59 , item61;delivery27
+Payment Reminder;20006;order33;;
+Pick Item;20006;;item67;
+Pick Item;20006;;item66;
+Place Order;20241;order34;item68 , item69;
+Confirm Order;20241;order34;item68 , item69;
+Item out of stock;20537;;item68;
+Reorder Item;20537;;item68;
+Pick Item;20537;;item69;
+Payment Reminder;20537;order34;;
+Load Cargo;20663;;item62 , item60;delivery24
+Place Order;20846;order35;item70 , item71;
+Confirm Order;20846;order35;item70 , item71;
+Item out of stock;21170;;item70;
+Item out of stock;21170;;item71;
+Pay Order;21170;order35;;
+Reorder Item;21170;;item71;
+Reorder Item;21170;;item70;
+Load Cargo;21229;;item64 , item65;delivery29
+Place Order;21463;order36;item73 , item72;
+Confirm Order;21463;order36;item73 , item72;
+Item out of stock;21761;;item72;
+Item out of stock;21761;;item73;
+Payment Reminder;21761;order36;;
+Reorder Item;21761;;item73;
+Reorder Item;21761;;item72;
+Load Cargo;21880;;item66 , item67;delivery11
+Place Order;22102;order37;item74 , item75;
+Confirm Order;22102;order37;item74 , item75;
+Item out of stock;22409;;item75;
+Item out of stock;22409;;item74;
+Pay Order;22409;order37;;
+Reorder Item;22409;;item74;
+Reorder Item;22409;;item75;
+Place Order;22714;order38;item76 , item77;
+Confirm Order;22714;order38;item76 , item77;
+Item out of stock;23045;;item76;
+Item out of stock;23045;;item77;
+Payment Reminder;23045;order38;;
+Reorder Item;23045;;item76;
+Reorder Item;23045;;item77;
+Place Order;23328;order39;item79 , item78;
+Confirm Order;23328;order39;item79 , item78;
+Pay Order;23640;order39;;
+Item out of stock;23640;;item78;
+Item out of stock;23640;;item79;
+Reorder Item;23640;;item79;
+Reorder Item;23640;;item78;
+Place Order;23964;order40;item80 , item81;
+Confirm Order;23964;order40;item80 , item81;
+Item out of stock;24245;;item81;
+Pick Item;24245;;item80;
+Reorder Item;24245;;item81;
+Pay Order;24245;order40;;
+Place Order;24595;order41;item82 , item83;
+Confirm Order;24595;order41;item82 , item83;
+Pay Order;24910;order41;;
+Item out of stock;24910;;item82;
+Item out of stock;24910;;item83;
+Reorder Item;24910;;item82;
+Reorder Item;24910;;item83;
+Place Order;25193;order42;item85 , item84;
+Confirm Order;25193;order42;item85 , item84;
+Pick Item;25515;;item84;
+Pick Item;25515;;item85;
+Pay Order;25515;order42;;
+Place Order;25825;order43;item87 , item86;
+Confirm Order;25825;order43;item87 , item86;
+Load Cargo;26015;;item69 , item80;delivery40
+Payment Reminder;26142;order43;;
+Pick Item;26142;;item86;
+Pick Item;26142;;item87;
+Place Order;26385;order44;item89 , item88;
+Confirm Order;26385;order44;item89 , item88;
+Pay Order;26725;order44;;
+Pick Item;26725;;item88;
+Pick Item;26725;;item89;
+Place Order;26965;order45;item90 , item91;
+Confirm Order;26965;order45;item90 , item91;
+Payment Reminder;27283;order45;;
+Item out of stock;27283;;item91;
+Pick Item;27283;;item90;
+Reorder Item;27283;;item91;
+Load Cargo;27365;;item84 , item85;delivery10
+Place Order;27594;order46;item93 , item92;
+Confirm Order;27594;order46;item93 , item92;
+Item out of stock;27925;;item92;
+Pick Item;27925;;item93;
+Payment Reminder;27925;order46;;
+Reorder Item;27925;;item92;
+Load Cargo;27990;;item87 , item86;delivery45
+Place Order;28188;order47;item94 , item95;
+Confirm Order;28188;order47;item94 , item95;
+Item out of stock;28493;;item94;
+Reorder Item;28493;;item94;
+Item out of stock;28493;;item95;
+Reorder Item;28493;;item95;
+Pay Order;28493;order47;;
+Load Cargo;28541;;item88 , item89;delivery32
+Place Order;28806;order48;item97 , item96;
+Confirm Order;28806;order48;item97 , item96;
+Item out of stock;29096;;item97;
+Pay Order;29096;order48;;
+Reorder Item;29096;;item97;
+Item out of stock;29096;;item96;
+Reorder Item;29096;;item96;
+Place Order;29428;order49;item98 , item99;
+Confirm Order;29428;order49;item98 , item99;
+Payment Reminder;29736;order49;;
+Pick Item;29736;;item99;
+Item out of stock;29736;;item98;
+Reorder Item;29736;;item98;
+Load Cargo;29826;;item90 , item93;delivery41
+Place Order;30022;order50;item101 , item100;
+Confirm Order;30022;order50;item101 , item100;
+Payment Reminder;30325;order50;;
+Item out of stock;30325;;item101;
+Item out of stock;30325;;item100;
+Reorder Item;30325;;item100;
+Reorder Item;30325;;item101;
+Place Order;30589;order51;item102 , item103;
+Confirm Order;30589;order51;item102 , item103;
+Pay Order;30868;order51;;
+Item out of stock;30868;;item102;
+Reorder Item;30868;;item102;
+Pick Item;30868;;item103;
+Place Order;31181;order52;item105 , item104;
+Confirm Order;31181;order52;item105 , item104;
+Item out of stock;31500;;item104;
+Reorder Item;31500;;item104;
+Payment Reminder;31500;order52;;
+Item out of stock;31500;;item105;
+Reorder Item;31500;;item105;
+Place Order;31809;order53;item106 , item107;
+Confirm Order;31809;order53;item106 , item107;
+End Route;32102;;item11 , item4;delivery1
+Payment Reminder;32109;order53;;
+Pick Item;32109;;item107;
+Pick Item;32109;;item106;
+Place Order;32389;order54;item109 , item108;
+Confirm Order;32389;order54;item109 , item108;
+Item out of stock;32690;;item108;
+Payment Reminder;32690;order54;;
+Item out of stock;32690;;item109;
+Reorder Item;32690;;item108;
+Reorder Item;32690;;item109;
+Load Cargo;32720;;item99 , item103;delivery4
+End Route;32787;;item2 , item3;delivery3
+Place Order;32996;order55;item110 , item111;
+Confirm Order;32996;order55;item110 , item111;
+Payment Reminder;33299;order55;;
+Pick Item;33299;;item111;
+Pick Item;33299;;item110;
+Place Order;33587;order56;item112 , item113;
+Confirm Order;33587;order56;item112 , item113;
+Pay Order;33873;order56;;
+Item out of stock;33873;;item113;
+Pick Item;33873;;item112;
+Reorder Item;33873;;item113;
+Load Cargo;33929;;item106 , item107;delivery25
+Place Order;34170;order57;item115 , item114;
+Confirm Order;34170;order57;item115 , item114;
+Item out of stock;34474;;item115;
+Reorder Item;34474;;item115;
+Payment Reminder;34474;order57;;
+Pick Item;34474;;item114;
+Place Order;34797;order58;item117 , item116;
+Confirm Order;34797;order58;item117 , item116;
+End Route;35033;;item20 , item26;delivery16
+Payment Reminder;35081;order58;;
+Pick Item;35081;;item116;
+Pick Item;35081;;item117;
+Load Cargo;35105;;item110 , item111;delivery50
+Place Order;35426;order59;item118 , item119;
+Confirm Order;35426;order59;item118 , item119;
+Payment Reminder;35724;order59;;
+Item out of stock;35724;;item118;
+Reorder Item;35724;;item118;
+Pick Item;35724;;item119;
+Place Order;36027;order60;item121 , item120;
+Confirm Order;36027;order60;item121 , item120;
+Load Cargo;36271;;item114 , item112;delivery44
+Item out of stock;36339;;item120;
+Item out of stock;36339;;item121;
+Reorder Item;36339;;item120;
+Pay Order;36339;order60;;
+Reorder Item;36339;;item121;
+Place Order;36671;order61;item123 , item122;
+Confirm Order;36671;order61;item123 , item122;
+Load Cargo;36972;;item117 , item116;delivery35
+Payment Reminder;37002;order61;;
+Item out of stock;37002;;item122;
+Reorder Item;37002;;item122;
+Pick Item;37002;;item123;
+Place Order;37318;order62;item124 , item125;
+Confirm Order;37318;order62;item124 , item125;
+Pay Order;37611;order62;;
+Pick Item;37611;;item125;
+Pick Item;37611;;item124;
+Place Order;37897;order63;item126 , item127;
+Confirm Order;37897;order63;item126 , item127;
+Pay Order;38191;order63;;
+Pick Item;38191;;item127;
+Pick Item;38191;;item126;
+Place Order;38524;order64;item128 , item129;
+Confirm Order;38524;order64;item128 , item129;
+Load Cargo;38810;;item123 , item119;delivery58
+Pick Item;38844;;item129;
+Pay Order;38844;order64;;
+Pick Item;38844;;item128;
+Place Order;39158;order65;item130 , item131;
+Confirm Order;39158;order65;item130 , item131;
+Load Cargo;39444;;item125 , item124;delivery38
+Payment Reminder;39487;order65;;
+Item out of stock;39487;;item131;
+Pick Item;39487;;item130;
+Reorder Item;39487;;item131;
+Place Order;39741;order66;item132 , item133;
+Confirm Order;39741;order66;item132 , item133;
+Item out of stock;40035;;item132;
+Payment Reminder;40035;order66;;
+Reorder Item;40035;;item132;
+Pick Item;40035;;item133;
+Load Cargo;40048;;item127 , item126;delivery51
+Place Order;40389;order67;item135 , item134;
+Confirm Order;40389;order67;item135 , item134;
+Load Cargo;40627;;item128 , item129;delivery36
+Payment Reminder;40748;order67;;
+Item out of stock;40748;;item134;
+Reorder Item;40748;;item134;
+Item out of stock;40748;;item135;
+Reorder Item;40748;;item135;
+Place Order;41020;order68;item136 , item137;
+Confirm Order;41020;order68;item136 , item137;
+Item out of stock;41324;;item136;
+Pay Order;41324;order68;;
+Item out of stock;41324;;item137;
+Reorder Item;41324;;item137;
+Reorder Item;41324;;item136;
+Place Order;41596;order69;item138 , item139;
+Confirm Order;41596;order69;item138 , item139;
+Load Cargo;41813;;item133 , item130;delivery48
+Item out of stock;41905;;item138;
+Pay Order;41905;order69;;
+Item out of stock;41905;;item139;
+Reorder Item;41905;;item138;
+Reorder Item;41905;;item139;
+Place Order;42192;order70;item140 , item141;
+Confirm Order;42192;order70;item140 , item141;
+Item out of stock;42501;;item141;
+Item out of stock;42501;;item140;
+Payment Reminder;42501;order70;;
+Reorder Item;42501;;item141;
+Reorder Item;42501;;item140;
+Place Order;42759;order71;item143 , item142;
+Confirm Order;42759;order71;item143 , item142;
+Fuel Car;43015;;;delivery67
+Pay Order;43066;order71;;
+Item out of stock;43066;;item142;
+Item out of stock;43066;;item143;
+Reorder Item;43066;;item142;
+Reorder Item;43066;;item143;
+Place Order;43361;order72;item144 , item145;
+Confirm Order;43361;order72;item144 , item145;
+Pay Order;43655;order72;;
+Item out of stock;43655;;item144;
+Reorder Item;43655;;item144;
+Pick Item;43655;;item145;
+Place Order;44016;order73;item147 , item146;
+Confirm Order;44016;order73;item147 , item146;
+Item out of stock;44328;;item146;
+Payment Reminder;44328;order73;;
+Reorder Item;44328;;item146;
+Pick Item;44328;;item147;
+Place Order;44622;order74;item149 , item148;
+Confirm Order;44622;order74;item149 , item148;
+Item out of stock;44940;;item148;
+Pay Order;44940;order74;;
+Pick Item;44940;;item149;
+Reorder Item;44940;;item148;
+Place Order;45190;order75;item150 , item151;
+Confirm Order;45190;order75;item150 , item151;
+Item out of stock;45489;;item151;
+Payment Reminder;45489;order75;;
+Pick Item;45489;;item150;
+Reorder Item;45489;;item151;
+Place Order;45835;order76;item152 , item153;
+Confirm Order;45835;order76;item152 , item153;
+Load Cargo;46150;;item147 , item145;delivery63
+Payment Reminder;46154;order76;;
+Pick Item;46154;;item152;
+Item out of stock;46154;;item153;
+Reorder Item;46154;;item153;
+Place Order;46414;order77;item155 , item154;
+Confirm Order;46414;order77;item155 , item154;
+Pay Order;46746;order77;;
+Pick Item;46746;;item154;
+Pick Item;46746;;item155;
+Place Order;47030;order78;item156 , item157;
+Confirm Order;47030;order78;item156 , item157;
+Load Cargo;47272;;item150 , item149;delivery28
+Pay Order;47345;order78;;
+Pick Item;47345;;item156;
+Pick Item;47345;;item157;
+Place Order;47635;order79;item158 , item159;
+Confirm Order;47635;order79;item158 , item159;
+Payment Reminder;47967;order79;;
+Item out of stock;47967;;item159;
+Pick Item;47967;;item158;
+Reorder Item;47967;;item159;
+Place Order;48215;order80;item161 , item160;
+Confirm Order;48215;order80;item161 , item160;
+Pick Item;48527;;item160;
+Payment Reminder;48527;order80;;
+Item out of stock;48527;;item161;
+Reorder Item;48527;;item161;
+Load Cargo;48528;;item155 , item152;delivery42
+Place Order;48820;order81;item162 , item163;
+Confirm Order;48820;order81;item162 , item163;
+Payment Reminder;49124;order81;;
+Pick Item;49124;;item163;
+Pick Item;49124;;item162;
+Load Cargo;49128;;item154 , item157;delivery77
+Place Order;49452;order82;item164 , item165;
+Confirm Order;49452;order82;item164 , item165;
+Payment Reminder;49749;order82;;
+Pick Item;49749;;item164;
+Item out of stock;49749;;item165;
+Reorder Item;49749;;item165;
+Load Cargo;49790;;item158 , item156;delivery54
+Place Order;50072;order83;item167 , item166;
+Confirm Order;50072;order83;item167 , item166;
+Payment Reminder;50380;order83;;
+Item out of stock;50380;;item166;
+Reorder Item;50380;;item166;
+Pick Item;50380;;item167;
+Place Order;50683;order84;item168 , item169;
+Confirm Order;50683;order84;item168 , item169;
+Load Cargo;50960;;item162 , item160;delivery73
+Payment Reminder;50984;order84;;
+Item out of stock;50984;;item168;
+Reorder Item;50984;;item168;
+Pick Item;50984;;item169;
+Place Order;51291;order85;item170 , item171;
+Confirm Order;51291;order85;item170 , item171;
+Load Cargo;51527;;item164 , item163;delivery79
+Pay Order;51619;order85;;
+Item out of stock;51619;;item170;
+Reorder Item;51619;;item170;
+Item out of stock;51619;;item171;
+Reorder Item;51619;;item171;
+Place Order;51867;order86;item173 , item172;
+Confirm Order;51867;order86;item173 , item172;
+Item out of stock;52173;;item172;
+Payment Reminder;52173;order86;;
+Pick Item;52173;;item173;
+Reorder Item;52173;;item172;
+Place Order;52447;order87;item175 , item174;
+Confirm Order;52447;order87;item175 , item174;
+Pay Order;52759;order87;;
+Item out of stock;52759;;item174;
+Reorder Item;52759;;item174;
+Pick Item;52759;;item175;
+Load Cargo;52769;;item169 , item167;delivery78
+Place Order;53004;order88;item177 , item176;
+Confirm Order;53004;order88;item177 , item176;
+Payment Reminder;53306;order88;;
+Item out of stock;53306;;item176;
+Reorder Item;53306;;item176;
+Item out of stock;53306;;item177;
+Reorder Item;53306;;item177;
+Place Order;53630;order89;item179 , item178;
+Confirm Order;53630;order89;item179 , item178;
+Payment Reminder;53947;order89;;
+Pick Item;53947;;item179;
+Pick Item;53947;;item178;
+Place Order;54219;order90;item180 , item181;
+Confirm Order;54219;order90;item180 , item181;
+Pay Order;54533;order90;;
+Item out of stock;54533;;item181;
+Pick Item;54533;;item180;
+Reorder Item;54533;;item181;
+Load Cargo;54615;;item175 , item173;delivery56
+Place Order;54819;order91;item183 , item182;
+Confirm Order;54819;order91;item183 , item182;
+Item out of stock;55120;;item182;
+Reorder Item;55120;;item182;
+Payment Reminder;55120;order91;;
+Pick Item;55120;;item183;
+Place Order;55460;order92;item185 , item184;
+Confirm Order;55460;order92;item185 , item184;
+Pay Order;55780;order92;;
+Item out of stock;55780;;item184;
+Reorder Item;55780;;item184;
+Pick Item;55780;;item185;
+Load Cargo;55803;;item179 , item178;delivery23
+Place Order;56038;order93;item186 , item187;
+Confirm Order;56038;order93;item186 , item187;
+Payment Reminder;56352;order93;;
+Item out of stock;56352;;item187;
+Reorder Item;56352;;item187;
+Item out of stock;56352;;item186;
+Reorder Item;56352;;item186;
+Place Order;56617;order94;item189 , item188;
+Confirm Order;56617;order94;item189 , item188;
+Pay Order;56936;order94;;
+Pick Item;56936;;item189;
+Pick Item;56936;;item188;
+Load Cargo;56945;;item183 , item180;delivery33
+Place Order;57246;order95;item190 , item191;
+Confirm Order;57246;order95;item190 , item191;
+Pay Order;57547;order95;;
+Item out of stock;57547;;item191;
+Reorder Item;57547;;item191;
+Pick Item;57547;;item190;
+Place Order;57845;order96;item193 , item192;
+Confirm Order;57845;order96;item193 , item192;
+Pay Order;58126;order96;;
+Pick Item;58126;;item192;
+Pick Item;58126;;item193;
+Place Order;58441;order97;item195 , item194;
+Confirm Order;58441;order97;item195 , item194;
+Load Cargo;58738;;item188 , item185;delivery85
+Pay Order;58755;order97;;
+Pick Item;58755;;item194;
+Pick Item;58755;;item195;
+Place Order;59024;order98;item197 , item196;
+Confirm Order;59024;order98;item197 , item196;
+Item out of stock;59334;;item197;
+Pay Order;59334;order98;;
+Reorder Item;59334;;item197;
+Pick Item;59334;;item196;
+Load Cargo;59380;;item189 , item190;delivery82
+Place Order;59581;order99;item198 , item199;
+Confirm Order;59581;order99;item198 , item199;
+Payment Reminder;59913;order99;;
+Item out of stock;59913;;item198;
+Pick Item;59913;;item199;
+Reorder Item;59913;;item198;
+Load Cargo;59982;;item193 , item192;delivery15
+Place Order;60160;order100;item200 , item201;
+Confirm Order;60160;order100;item200 , item201;
+Pay Order;60499;order100;;
+Pick Item;60499;;item200;
+Pick Item;60499;;item201;
+Load Cargo;60575;;item195 , item194;delivery61
+Place Order;60806;order101;item202 , item203;
+Confirm Order;60806;order101;item202 , item203;
+Pay Order;61102;order101;;
+Pick Item;61102;;item202;
+Pick Item;61102;;item203;
+Place Order;61388;order102;item205 , item204;
+Confirm Order;61388;order102;item205 , item204;
+Pay Order;61700;order102;;
+Item out of stock;61700;;item204;
+Reorder Item;61700;;item204;
+Pick Item;61700;;item205;
+Load Cargo;61709;;item196 , item199;delivery64
+Place Order;62017;order103;item207 , item206;
+Confirm Order;62017;order103;item207 , item206;
+Load Cargo;62328;;item201 , item200;delivery102
+Pay Order;62340;order103;;
+Item out of stock;62340;;item207;
+Reorder Item;62340;;item207;
+Pick Item;62340;;item206;
+Place Order;62594;order104;item208 , item209;
+Confirm Order;62594;order104;item208 , item209;
+Pay Order;62890;order104;;
+Item out of stock;62890;;item208;
+Item out of stock;62890;;item209;
+Reorder Item;62890;;item208;
+Reorder Item;62890;;item209;
+Load Cargo;62952;;item202 , item203;delivery65
+Place Order;63169;order105;item211 , item210;
+Confirm Order;63169;order105;item211 , item210;
+Pay Order;63475;order105;;
+Item out of stock;63475;;item211;
+Pick Item;63475;;item210;
+Reorder Item;63475;;item211;
+Place Order;63739;order106;item212 , item213;
+Confirm Order;63739;order106;item212 , item213;
+Item out of stock;64081;;item212;
+Pay Order;64081;order106;;
+Reorder Item;64081;;item212;
+Pick Item;64081;;item213;
+Load Cargo;64144;;item205 , item206;delivery80
+Place Order;64333;order107;item214 , item215;
+Confirm Order;64333;order107;item214 , item215;
+Payment Reminder;64633;order107;;
+Pick Item;64633;;item215;
+Pick Item;64633;;item214;
+Place Order;64929;order108;item217 , item216;
+Confirm Order;64929;order108;item217 , item216;
+Payment Reminder;65232;order108;;
+Pick Item;65232;;item216;
+Item out of stock;65232;;item217;
+Reorder Item;65232;;item217;
+Place Order;65520;order109;item219 , item218;
+Confirm Order;65520;order109;item219 , item218;
+Payment Reminder;65841;order109;;
+Item out of stock;65841;;item219;
+Item out of stock;65841;;item218;
+Reorder Item;65841;;item218;
+Reorder Item;65841;;item219;
+Load Cargo;65857;;item213 , item210;delivery89
+Place Order;66092;order110;item220 , item221;
+Confirm Order;66092;order110;item220 , item221;
+Item out of stock;66394;;item221;
+Reorder Item;66394;;item221;
+Payment Reminder;66394;order110;;
+Pick Item;66394;;item220;
+Load Cargo;66430;;item214 , item215;delivery106
+Place Order;66689;order111;item223 , item222;
+Confirm Order;66689;order111;item223 , item222;
+Payment Reminder;67031;order111;;
+Pick Item;67031;;item222;
+Pick Item;67031;;item223;
+Place Order;67270;order112;item224 , item225;
+Confirm Order;67270;order112;item224 , item225;
+Payment Reminder;67588;order112;;
+Item out of stock;67588;;item225;
+Reorder Item;67588;;item225;
+Pick Item;67588;;item224;
+Place Order;67844;order113;item226 , item227;
+Confirm Order;67844;order113;item226 , item227;
+Load Cargo;68145;;item216 , item220;delivery67
+Pay Order;68175;order113;;
+Item out of stock;68175;;item226;
+Item out of stock;68175;;item227;
+Reorder Item;68175;;item226;
+Reorder Item;68175;;item227;
+Place Order;68448;order114;item229 , item228;
+Confirm Order;68448;order114;item229 , item228;
+Item out of stock;68767;;item228;
+Pay Order;68767;order114;;
+Item out of stock;68767;;item229;
+Reorder Item;68767;;item229;
+Reorder Item;68767;;item228;
+Load Cargo;68830;;item223 , item222;delivery96
+Place Order;69005;order115;item231 , item230;
+Confirm Order;69005;order115;item231 , item230;
+Pay Order;69352;order115;;
+Item out of stock;69352;;item230;
+Reorder Item;69352;;item230;
+Pick Item;69352;;item231;
+Place Order;69607;order116;item233 , item232;
+Confirm Order;69607;order116;item233 , item232;
+Pay Order;69911;order116;;
+Pick Item;69911;;item232;
+Pick Item;69911;;item233;
+Place Order;70203;order117;item234 , item235;
+Confirm Order;70203;order117;item234 , item235;
+Pick Item;70509;;item234;
+Payment Reminder;70509;order117;;
+Item out of stock;70509;;item235;
+Reorder Item;70509;;item235;
+Place Order;70788;order118;item237 , item236;
+Confirm Order;70788;order118;item237 , item236;
+Payment Reminder;71083;order118;;
+Item out of stock;71083;;item237;
+Reorder Item;71083;;item237;
+Item out of stock;71083;;item236;
+Reorder Item;71083;;item236;
+Load Cargo;71243;;item224 , item231;delivery53
+Place Order;71353;order119;item238 , item239;
+Confirm Order;71353;order119;item238 , item239;
+Pay Order;71664;order119;;
+Item out of stock;71664;;item238;
+Pick Item;71664;;item239;
+Reorder Item;71664;;item238;
+Load Cargo;71760;;item232 , item233;delivery92
+Place Order;71946;order120;item241 , item240;
+Confirm Order;71946;order120;item241 , item240;
+Payment Reminder;72215;order120;;
+Item out of stock;72215;;item240;
+Pick Item;72215;;item241;
+Reorder Item;72215;;item240;
+Place Order;72566;order121;item243 , item242;
+Confirm Order;72566;order121;item243 , item242;
+Pay Order;72885;order121;;
+Item out of stock;72885;;item243;
+Reorder Item;72885;;item243;
+Pick Item;72885;;item242;
+Place Order;73176;order122;item245 , item244;
+Confirm Order;73176;order122;item245 , item244;
+Load Cargo;73460;;item239 , item234;delivery69
+Payment Reminder;73477;order122;;
+Pick Item;73477;;item245;
+Pick Item;73477;;item244;
+Place Order;73756;order123;item247 , item246;
+Confirm Order;73756;order123;item247 , item246;
+Pay Order;74069;order123;;
+Item out of stock;74069;;item247;
+Pick Item;74069;;item246;
+Reorder Item;74069;;item247;
+Place Order;74358;order124;item248 , item249;
+Confirm Order;74358;order124;item248 , item249;
+Item out of stock;74716;;item248;
+Item out of stock;74716;;item249;
+Pay Order;74716;order124;;
+Reorder Item;74716;;item248;
+Reorder Item;74716;;item249;
+Load Cargo;74737;;item242 , item241;delivery70
+Place Order;74963;order125;item250 , item251;
+Confirm Order;74963;order125;item250 , item251;
+Item out of stock;75253;;item250;
+Payment Reminder;75253;order125;;
+Reorder Item;75253;;item250;
+Pick Item;75253;;item251;
+Load Cargo;75306;;item244 , item245;delivery94
+Start Route;75415;;item216 , item220;delivery67
+Place Order;75579;order126;item253 , item252;
+Confirm Order;75579;order126;item253 , item252;
+Item out of stock;75869;;item253;
+Reorder Item;75869;;item253;
+Payment Reminder;75869;order126;;
+Pick Item;75869;;item252;
+Place Order;76199;order127;item255 , item254;
+Confirm Order;76199;order127;item255 , item254;
+Item out of stock;76541;;item254;
+Item out of stock;76541;;item255;
+Pay Order;76541;order127;;
+Reorder Item;76541;;item255;
+Reorder Item;76541;;item254;
+Place Order;76807;order128;item257 , item256;
+Confirm Order;76807;order128;item257 , item256;
+Payment Reminder;77094;order128;;
+Item out of stock;77094;;item256;
+Reorder Item;77094;;item256;
+Pick Item;77094;;item257;
+Load Cargo;77115;;item246 , item251;delivery98
+Place Order;77409;order129;item259 , item258;
+Confirm Order;77409;order129;item259 , item258;
+Item out of stock;77733;;item258;
+Payment Reminder;77733;order129;;
+Item out of stock;77733;;item259;
+Reorder Item;77733;;item259;
+Reorder Item;77733;;item258;
+Place Order;77977;order130;item260 , item261;
+Confirm Order;77977;order130;item260 , item261;
+Pay Order;78305;order130;;
+Item out of stock;78305;;item261;
+Reorder Item;78305;;item261;
+Pick Item;78305;;item260;
+Place Order;78549;order131;item263 , item262;
+Confirm Order;78549;order131;item263 , item262;
+Pay Order;78870;order131;;
+Pick Item;78870;;item263;
+Pick Item;78870;;item262;
+Load Cargo;78893;;item252 , item257;delivery55
+Place Order;79156;order132;item265 , item264;
+Confirm Order;79156;order132;item265 , item264;
+Item out of stock;79475;;item265;
+Reorder Item;79475;;item265;
+Payment Reminder;79475;order132;;
+Pick Item;79475;;item264;
+Place Order;79723;order133;item267 , item266;
+Confirm Order;79723;order133;item267 , item266;
+Item out of stock;80054;;item267;
+Pay Order;80054;order133;;
+Pick Item;80054;;item266;
+Reorder Item;80054;;item267;
+Place Order;80310;order134;item268 , item269;
+Confirm Order;80310;order134;item268 , item269;
+Item out of stock;80619;;item269;
+Reorder Item;80619;;item269;
+Item out of stock;80619;;item268;
+Pay Order;80619;order134;;
+Reorder Item;80619;;item268;
+Load Cargo;80659;;item260 , item263;delivery30
+Place Order;80918;order135;item270 , item271;
+Confirm Order;80918;order135;item270 , item271;
+Pay Order;81231;order135;;
+Item out of stock;81231;;item271;
+Pick Item;81231;;item270;
+Reorder Item;81231;;item271;
+Load Cargo;81374;;item262 , item264;delivery128
+Place Order;81521;order136;item272 , item273;
+Confirm Order;81521;order136;item272 , item273;
+Pay Order;81836;order136;;
+Pick Item;81836;;item272;
+Item out of stock;81836;;item273;
+Reorder Item;81836;;item273;
+Place Order;82083;order137;item275 , item274;
+Confirm Order;82083;order137;item275 , item274;
+Item out of stock;82400;;item274;
+Reorder Item;82400;;item274;
+Payment Reminder;82400;order137;;
+Item out of stock;82400;;item275;
+Reorder Item;82400;;item275;
+Place Order;82681;order138;item276 , item277;
+Confirm Order;82681;order138;item276 , item277;
+Pay Order;82969;order138;;
+Pick Item;82969;;item277;
+Pick Item;82969;;item276;
+Load Cargo;83088;;item270 , item266;delivery112
+Place Order;83295;order139;item278 , item279;
+Confirm Order;83295;order139;item278 , item279;
+Payment Reminder;83626;order139;;
+Item out of stock;83626;;item279;
+Pick Item;83626;;item278;
+Reorder Item;83626;;item279;
+Place Order;83913;order140;item280 , item281;
+Confirm Order;83913;order140;item280 , item281;
+Pick Item;84236;;item281;
+Payment Reminder;84236;order140;;
+Pick Item;84236;;item280;
+Place Order;84510;order141;item282 , item283;
+Confirm Order;84510;order141;item282 , item283;
+Load Cargo;84693;;item277 , item272;delivery115
+Item out of stock;84816;;item282;
+Payment Reminder;84816;order141;;
+Item out of stock;84816;;item283;
+Reorder Item;84816;;item283;
+Reorder Item;84816;;item282;
+Place Order;85133;order142;item284 , item285;
+Confirm Order;85133;order142;item284 , item285;
+Load Cargo;85460;;item276 , item278;delivery107
+Payment Reminder;85484;order142;;
+Item out of stock;85484;;item284;
+Reorder Item;85484;;item284;
+Pick Item;85484;;item285;
+Place Order;85707;order143;item287 , item286;
+Confirm Order;85707;order143;item287 , item286;
+Item out of stock;86022;;item287;
+Payment Reminder;86022;order143;;
+Pick Item;86022;;item286;
+Reorder Item;86022;;item287;
+Load Cargo;86037;;item281 , item280;delivery131
+Place Order;86266;order144;item289 , item288;
+Confirm Order;86266;order144;item289 , item288;
+Item out of stock;86597;;item289;
+Item out of stock;86597;;item288;
+Reorder Item;86597;;item289;
+Reorder Item;86597;;item288;
+Payment Reminder;86597;order144;;
+Place Order;86886;order145;item291 , item290;
+Confirm Order;86886;order145;item291 , item290;
+Item out of stock;87208;;item291;
+Pick Item;87208;;item290;
+Payment Reminder;87208;order145;;
+Reorder Item;87208;;item291;
+Place Order;87478;order146;item293 , item292;
+Confirm Order;87478;order146;item293 , item292;
+Pick Item;87817;;item293;
+Pick Item;87817;;item292;
+Pay Order;87817;order146;;
+Load Cargo;87842;;item285 , item286;delivery13
+Place Order;88103;order147;item294 , item295;
+Confirm Order;88103;order147;item294 , item295;
+Payment Reminder;88404;order147;;
+Pick Item;88404;;item294;
+Item out of stock;88404;;item295;
+Reorder Item;88404;;item295;
+Place Order;88731;order148;item297 , item296;
+Confirm Order;88731;order148;item297 , item296;
+Pay Order;89067;order148;;
+Pick Item;89067;;item296;
+Pick Item;89067;;item297;
+Place Order;89316;order149;item298 , item299;
+Confirm Order;89316;order149;item298 , item299;
+Load Cargo;89570;;item293 , item290;delivery74
+Payment Reminder;89618;order149;;
+Pick Item;89618;;item298;
+Pick Item;89618;;item299;
+Place Order;89927;order150;item300 , item301;
+Confirm Order;89927;order150;item300 , item301;
+Load Cargo;90197;;item294 , item292;delivery122
+Pay Order;90229;order150;;
+Item out of stock;90229;;item301;
+Reorder Item;90229;;item301;
+Pick Item;90229;;item300;
+Place Order;90527;order151;item303 , item302;
+Confirm Order;90527;order151;item303 , item302;
+Payment Reminder;90812;order151;;
+Item out of stock;90812;;item303;
+Item out of stock;90812;;item302;
+Reorder Item;90812;;item303;
+Reorder Item;90812;;item302;
+Load Cargo;90905;;item297 , item296;delivery140
+Place Order;91129;order152;item304 , item305;
+Confirm Order;91129;order152;item304 , item305;
+Load Cargo;91415;;item299 , item298;delivery143
+Payment Reminder;91454;order152;;
+Pick Item;91454;;item304;
+Pick Item;91454;;item305;
+Place Order;91712;order153;item307 , item306;
+Confirm Order;91712;order153;item307 , item306;
+Item out of stock;92026;;item306;
+Pay Order;92026;order153;;
+Reorder Item;92026;;item306;
+Pick Item;92026;;item307;
+Place Order;92327;order154;item309 , item308;
+Confirm Order;92327;order154;item309 , item308;
+Item out of stock;92619;;item309;
+Pick Item;92619;;item308;
+Payment Reminder;92619;order154;;
+Reorder Item;92619;;item309;
+Place Order;92975;order155;item310 , item311;
+Confirm Order;92975;order155;item310 , item311;
+Load Cargo;93277;;item300 , item304;delivery97
+Payment Reminder;93286;order155;;
+Item out of stock;93286;;item311;
+Pick Item;93286;;item310;
+Reorder Item;93286;;item311;
+End Route;93559;;item216 , item220;delivery67
+Place Order;93577;order156;item313 , item312;
+Confirm Order;93577;order156;item313 , item312;
+Load Cargo;93819;;item307 , item305;delivery83
+Item out of stock;93896;;item313;
+Pay Order;93896;order156;;
+Item out of stock;93896;;item312;
+Reorder Item;93896;;item312;
+Reorder Item;93896;;item313;
+Place Order;94174;order157;item314 , item315;
+Confirm Order;94174;order157;item314 , item315;
+Item out of stock;94474;;item315;
+Item out of stock;94474;;item314;
+Reorder Item;94474;;item315;
+Reorder Item;94474;;item314;
+Pay Order;94474;order157;;
+Place Order;94744;order158;item316 , item317;
+Confirm Order;94744;order158;item316 , item317;
+Item out of stock;95051;;item317;
+Reorder Item;95051;;item317;
+Pay Order;95051;order158;;
+Pick Item;95051;;item316;
+Load Cargo;95098;;item308 , item310;delivery57
+Place Order;95325;order159;item318 , item319;
+Confirm Order;95325;order159;item318 , item319;
+Payment Reminder;95638;order159;;
+Pick Item;95638;;item319;
+Pick Item;95638;;item318;
+Place Order;95890;order160;item321 , item320;
+Confirm Order;95890;order160;item321 , item320;
+Pay Order;96194;order160;;
+Item out of stock;96194;;item320;
+Pick Item;96194;;item321;
+Reorder Item;96194;;item320;
+Place Order;96453;order161;item323 , item322;
+Confirm Order;96453;order161;item323 , item322;
+Payment Reminder;96770;order161;;
+Item out of stock;96770;;item323;
+Item out of stock;96770;;item322;
+Reorder Item;96770;;item322;
+Reorder Item;96770;;item323;
+Place Order;97077;order162;item325 , item324;
+Confirm Order;97077;order162;item325 , item324;
+Pay Order;97415;order162;;
+Item out of stock;97415;;item324;
+Reorder Item;97415;;item324;
+Pick Item;97415;;item325;
+Load Cargo;97438;;item318 , item316;delivery135
+Place Order;97694;order163;item326 , item327;
+Confirm Order;97694;order163;item326 , item327;
+Load Cargo;97977;;item319 , item321;delivery46
+Item out of stock;98008;;item327;
+Pick Item;98008;;item326;
+Pay Order;98008;order163;;
+Reorder Item;98008;;item327;
+Place Order;98267;order164;item329 , item328;
+Confirm Order;98267;order164;item329 , item328;
+Pay Order;98602;order164;;
+Item out of stock;98602;;item329;
+Reorder Item;98602;;item329;
+Pick Item;98602;;item328;
+Place Order;98906;order165;item331 , item330;
+Confirm Order;98906;order165;item331 , item330;
+Item out of stock;99243;;item331;
+Reorder Item;99243;;item331;
+Payment Reminder;99243;order165;;
+Item out of stock;99243;;item330;
+Reorder Item;99243;;item330;
+Place Order;99530;order166;item333 , item332;
+Confirm Order;99530;order166;item333 , item332;
+Payment Reminder;99842;order166;;
+Item out of stock;99842;;item333;
+Pick Item;99842;;item332;
+Reorder Item;99842;;item333;
+Load Cargo;99862;;item326 , item325;delivery49
+Place Order;100123;order167;item334 , item335;
+Confirm Order;100123;order167;item334 , item335;
+Pay Order;100427;order167;;
+Item out of stock;100427;;item335;
+Item out of stock;100427;;item334;
+Reorder Item;100427;;item335;
+Reorder Item;100427;;item334;
+Place Order;100710;order168;item336 , item337;
+Confirm Order;100710;order168;item336 , item337;
+Item out of stock;101036;;item336;
+Payment Reminder;101036;order168;;
+Reorder Item;101036;;item336;
+Pick Item;101036;;item337;
+Place Order;101284;order169;item339 , item338;
+Confirm Order;101284;order169;item339 , item338;
+Pay Order;101583;order169;;
+Pick Item;101583;;item338;
+Pick Item;101583;;item339;
+Load Cargo;101637;;item328 , item332;delivery125
+Place Order;101875;order170;item341 , item340;
+Confirm Order;101875;order170;item341 , item340;
+Pay Order;102150;order170;;
+Pick Item;102150;;item340;
+Pick Item;102150;;item341;
+Place Order;102474;order171;item342 , item343;
+Confirm Order;102474;order171;item342 , item343;
+Item out of stock;102780;;item343;
+Pay Order;102780;order171;;
+Pick Item;102780;;item342;
+Reorder Item;102780;;item343;
+Place Order;103070;order172;item344 , item345;
+Confirm Order;103070;order172;item344 , item345;
+Pay Order;103385;order172;;
+Item out of stock;103385;;item345;
+Reorder Item;103385;;item345;
+Item out of stock;103385;;item344;
+Reorder Item;103385;;item344;
+Load Cargo;103395;;item339 , item337;delivery88
+Place Order;103651;order173;item347 , item346;
+Confirm Order;103651;order173;item347 , item346;
+Payment Reminder;103936;order173;;
+Item out of stock;103936;;item346;
+Load Cargo;103936;;item338 , item341;delivery141
+Pick Item;103936;;item347;
+Reorder Item;103936;;item346;
+Place Order;104288;order174;item348 , item349;
+Confirm Order;104288;order174;item348 , item349;
+Load Cargo;104601;;item340 , item342;delivery47
+Pay Order;104606;order174;;
+Pick Item;104606;;item349;
+Item out of stock;104606;;item348;
+Reorder Item;104606;;item348;
+Place Order;104925;order175;item351 , item350;
+Confirm Order;104925;order175;item351 , item350;
+Payment Reminder;105197;order175;;
+Pick Item;105197;;item350;
+Pick Item;105197;;item351;
+Place Order;105514;order176;item353 , item352;
+Confirm Order;105514;order176;item353 , item352;
+Pay Order;105845;order176;;
+Item out of stock;105845;;item353;
+Pick Item;105845;;item352;
+Reorder Item;105845;;item353;
+Place Order;106134;order177;item354 , item355;
+Confirm Order;106134;order177;item354 , item355;
+Payment Reminder;106424;order177;;
+Item out of stock;106424;;item354;
+Item out of stock;106424;;item355;
+Reorder Item;106424;;item354;
+Reorder Item;106424;;item355;
+Load Cargo;106486;;item347 , item349;delivery133
+Place Order;106735;order178;item357 , item356;
+Confirm Order;106735;order178;item357 , item356;
+Load Cargo;107026;;item350 , item351;delivery144
+Payment Reminder;107071;order178;;
+Pick Item;107071;;item357;
+Pick Item;107071;;item356;
+Place Order;107314;order179;item359 , item358;
+Confirm Order;107314;order179;item359 , item358;
+Item out of stock;107630;;item359;
+Reorder Item;107630;;item359;
+Pick Item;107630;;item358;
+Payment Reminder;107630;order179;;
+Place Order;107899;order180;item360 , item361;
+Confirm Order;107899;order180;item360 , item361;
+Item out of stock;108208;;item361;
+Reorder Item;108208;;item361;
+Pay Order;108208;order180;;
+Pick Item;108208;;item360;
+Place Order;108460;order181;item362 , item363;
+Confirm Order;108460;order181;item362 , item363;
+Pay Order;108784;order181;;
+Pick Item;108784;;item363;
+Pick Item;108784;;item362;
+Load Cargo;108870;;item352 , item356;delivery75
+Place Order;109038;order182;item365 , item364;
+Confirm Order;109038;order182;item365 , item364;
+Payment Reminder;109331;order182;;
+Item out of stock;109331;;item365;
+Pick Item;109331;;item364;
+Reorder Item;109331;;item365;
+Load Cargo;109469;;item357 , item358;delivery86
+Place Order;109616;order183;item367 , item366;
+Confirm Order;109616;order183;item367 , item366;
+Payment Reminder;109916;order183;;
+Item out of stock;109916;;item366;
+Item out of stock;109916;;item367;
+Reorder Item;109916;;item366;
+Reorder Item;109916;;item367;
+Place Order;110204;order184;item368 , item369;
+Confirm Order;110204;order184;item368 , item369;
+Item out of stock;110504;;item368;
+Pay Order;110504;order184;;
+Pick Item;110504;;item369;
+Reorder Item;110504;;item368;
+Load Cargo;110606;;item360 , item362;delivery174
+Place Order;110825;order185;item371 , item370;
+Confirm Order;110825;order185;item371 , item370;
+Payment Reminder;111123;order185;;
+Pick Item;111123;;item371;
+Item out of stock;111123;;item370;
+Reorder Item;111123;;item370;
+Load Cargo;111151;;item364 , item363;delivery18
+Place Order;111409;order186;item372 , item373;
+Confirm Order;111409;order186;item372 , item373;
+Pay Order;111693;order186;;
+Pick Item;111693;;item372;
+Pick Item;111693;;item373;
+Place Order;111990;order187;item374 , item375;
+Confirm Order;111990;order187;item374 , item375;
+Item out of stock;112308;;item374;
+Pay Order;112308;order187;;
+Pick Item;112308;;item375;
+Reorder Item;112308;;item374;
+Place Order;112590;order188;item377 , item376;
+Confirm Order;112590;order188;item377 , item376;
+Payment Reminder;112880;order188;;
+Item out of stock;112880;;item376;
+Pick Item;112880;;item377;
+Reorder Item;112880;;item376;
+Load Cargo;112939;;item369 , item371;delivery147
+Place Order;113182;order189;item378 , item379;
+Confirm Order;113182;order189;item378 , item379;
+Payment Reminder;113502;order189;;
+Pick Item;113502;;item379;
+Item out of stock;113502;;item378;
+Reorder Item;113502;;item378;
+Load Cargo;113537;;item372 , item373;delivery139
+Place Order;113801;order190;item380 , item381;
+Confirm Order;113801;order190;item380 , item381;
+Item out of stock;114112;;item380;
+Item out of stock;114112;;item381;
+Pay Order;114112;order190;;
+Reorder Item;114112;;item381;
+Reorder Item;114112;;item380;
+Place Order;114408;order191;item383 , item382;
+Confirm Order;114408;order191;item383 , item382;
+Pay Order;114717;order191;;
+Pick Item;114717;;item382;
+Pick Item;114717;;item383;
+Load Cargo;114764;;item375 , item377;delivery43
+Place Order;115063;order192;item385 , item384;
+Confirm Order;115063;order192;item385 , item384;
+Payment Reminder;115375;order192;;
+Pick Item;115375;;item384;
+Pick Item;115375;;item385;
+Place Order;115655;order193;item386 , item387;
+Confirm Order;115655;order193;item386 , item387;
+Payment Reminder;115947;order193;;
+Item out of stock;115947;;item387;
+Item out of stock;115947;;item386;
+Reorder Item;115947;;item386;
+Reorder Item;115947;;item387;
+Place Order;116236;order194;item388 , item389;
+Confirm Order;116236;order194;item388 , item389;
+Load Cargo;116512;;item379 , item383;delivery137
+Item out of stock;116582;;item388;
+Reorder Item;116582;;item388;
+Payment Reminder;116582;order194;;
+Pick Item;116582;;item389;
+Place Order;116849;order195;item390 , item391;
+Confirm Order;116849;order195;item390 , item391;
+Payment Reminder;117144;order195;;
+Pick Item;117144;;item390;
+Item out of stock;117144;;item391;
+Reorder Item;117144;;item391;
+Load Cargo;117172;;item382 , item385;delivery113
+Place Order;117465;order196;item393 , item392;
+Confirm Order;117465;order196;item393 , item392;
+Item out of stock;117797;;item392;
+Pick Item;117797;;item393;
+Pay Order;117797;order196;;
+Reorder Item;117797;;item392;
+Place Order;118058;order197;item394 , item395;
+Confirm Order;118058;order197;item394 , item395;
+Item out of stock;118365;;item394;
+Reorder Item;118365;;item394;
+Item out of stock;118365;;item395;
+Payment Reminder;118365;order197;;
+Reorder Item;118365;;item395;
+Load Cargo;118387;;item384 , item389;delivery123
+Place Order;118656;order198;item397 , item396;
+Confirm Order;118656;order198;item397 , item396;
+Pay Order;118961;order198;;
+Item out of stock;118961;;item397;
+Reorder Item;118961;;item397;
+Pick Item;118961;;item396;
+Place Order;119279;order199;item399 , item398;
+Confirm Order;119279;order199;item399 , item398;
+Load Cargo;119558;;item393 , item390;delivery129
+Payment Reminder;119590;order199;;
+Pick Item;119590;;item399;
+Pick Item;119590;;item398;
+Load Cargo;121331;;item398 , item396;delivery124
+Pick Item;181119;;item5;
+Payment Reminder;181881;order3;;
+Pick Item;182227;;item6;
+Pay Order;182266;order4;;
+Pick Item;182391;;item7;
+Pick Item;182520;;item8;
+Pick Item;182670;;item9;
+Load Cargo;183026;;item5 , item399;delivery120
+Pick Item;184029;;item14;
+Pay Order;184057;order6;;
+Pick Item;184181;;item13;
+Load Cargo;184225;;item7 , item6;delivery84
+Load Cargo;184484;;item8 , item9;delivery196
+Pay Order;184847;order8;;
+Pick Item;185490;;item18;
+Pick Item;185585;;item17;
+Load Cargo;185931;;item13 , item14;delivery101
+Pick Item;186370;;item22;
+Pick Item;186647;;item23;
+Pay Order;187240;order11;;
+Load Cargo;187308;;item17 , item18;delivery177
+Pick Item;187431;;item25;
+Pick Item;187896;;item24;
+Pick Item;188126;;item29;
+Payment Reminder;188227;order13;;
+Load Cargo;188470;;item22 , item23;delivery134
+Payment Reminder;188500;order14;;
+Payment Reminder;188638;order16;;
+Pick Item;189018;;item31;
+Pick Item;189364;;item30;
+Pick Item;189594;;item32;
+Load Cargo;189759;;item24 , item25;delivery105
+Pay Order;190477;order17;;
+Pick Item;190553;;item36;
+Pay Order;190728;order18;;
+Load Cargo;190745;;item31 , item29;delivery154
+Pick Item;191374;;item34;
+Load Cargo;191421;;item30 , item32;delivery153
+Pick Item;191842;;item40;
+Pick Item;192307;;item43;
+Pick Item;192336;;item42;
+Pick Item;192555;;item39;
+Pick Item;193029;;item45;
+Load Cargo;193218;;item36 , item34;delivery189
+Pick Item;193608;;item46;
+Pick Item;193695;;item47;
+Load Cargo;194101;;item43 , item40;delivery150
+Load Cargo;194345;;item39 , item42;delivery17
+Pick Item;194633;;item50;
+Load Cargo;195396;;item46 , item45;delivery19
+Payment Reminder;195628;order26;;
+Pick Item;195731;;item53;
+Load Cargo;196485;;item47 , item50;delivery130
+Payment Reminder;196617;order27;;
+Pick Item;196863;;item58;
+Pick Item;198312;;item63;
+Payment Reminder;198338;order31;;
+Load Cargo;198751;;item53 , item58;delivery192
+Pay Order;200013;order32;;
+Pay Order;200130;order33;;
+Pay Order;200438;order34;;
+Pick Item;201087;;item71;
+Pick Item;201203;;item73;
+Pick Item;201235;;item70;
+Pick Item;201365;;item68;
+Payment Reminder;201542;order36;;
+Start Route;201671;;item39 , item42;delivery17
+Pick Item;201908;;item72;
+Pick Item;202779;;item75;
+Pick Item;202871;;item74;
+Load Cargo;202880;;item63 , item71;delivery116
+Payment Reminder;202980;order38;;
+Pick Item;202988;;item77;
+Load Cargo;203117;;item68 , item73;delivery194
+Pick Item;203230;;item76;
+Load Cargo;203765;;item70 , item72;delivery142
+Pick Item;203937;;item79;
+Pick Item;204005;;item78;
+Pick Item;204159;;item82;
+Pick Item;204538;;item81;
+Pick Item;204546;;item83;
+Load Cargo;204660;;item74 , item75;delivery60
+Load Cargo;205034;;item76 , item77;delivery118
+Pay Order;205664;order43;;
+Load Cargo;205858;;item78 , item79;delivery108
+Load Cargo;206282;;item82 , item81;delivery167
+Pick Item;206832;;item91;
+Pay Order;207848;order46;;
+Pick Item;208201;;item94;
+Payment Reminder;208221;order45;;
+Pick Item;208345;;item92;
+Load Cargo;208647;;item83 , item91;delivery162
+Pick Item;208663;;item95;
+Pick Item;208771;;item97;
+Pick Item;209265;;item96;
+Pick Item;209519;;item98;
+Payment Reminder;209676;order49;;
+Pick Item;210086;;item101;
+Load Cargo;210190;;item94 , item92;delivery111
+Pick Item;210269;;item100;
+Payment Reminder;210519;order50;;
+Load Cargo;210603;;item95 , item97;delivery182
+Pick Item;211189;;item102;
+Load Cargo;211352;;item96 , item98;delivery81
+Payment Reminder;211603;order52;;
+Pay Order;211859;order53;;
+Pick Item;211950;;item104;
+Load Cargo;212094;;item101 , item100;delivery146
+Pick Item;212138;;item105;
+Pick Item;212277;;item108;
+Pick Item;212446;;item109;
+Payment Reminder;212912;order54;;
+Pay Order;213124;order55;;
+Pick Item;213707;;item113;
+Load Cargo;213799;;item102 , item104;delivery72
+Load Cargo;214089;;item105 , item108;delivery164
+Pick Item;214092;;item115;
+Payment Reminder;214259;order57;;
+Payment Reminder;214772;order58;;
+Pick Item;215190;;item118;
+Pay Order;215360;order59;;
+Load Cargo;215489;;item109 , item113;delivery168
+Pick Item;216026;;item120;
+Pick Item;216120;;item121;
+Pick Item;216833;;item122;
+Load Cargo;216972;;item118 , item115;delivery138
+Pay Order;217054;order61;;
+Load Cargo;217901;;item120 , item121;delivery71
+Pay Order;218933;order65;;
+End Route;219442;;item39 , item42;delivery17
+Pick Item;219527;;item131;
+Pick Item;219529;;item132;
+Payment Reminder;219538;order66;;
+Pick Item;220213;;item136;
+Pick Item;220575;;item137;
+Pick Item;220893;;item134;
+Pick Item;221149;;item135;
+Payment Reminder;221182;order67;;
+Load Cargo;221317;;item122 , item132;delivery156
+Payment Reminder;221923;order70;;
+Pick Item;221999;;item138;
+Load Cargo;222078;;item136 , item131;delivery99
+Pick Item;222155;;item139;
+Pick Item;222492;;item141;
+Load Cargo;222666;;item137 , item134;delivery109
+Pick Item;222837;;item143;
+Pick Item;222983;;item140;
+Pick Item;223240;;item142;
+Load Cargo;223733;;item135 , item138;delivery151
+Pick Item;223921;;item146;
+Pick Item;224130;;item144;
+Load Cargo;224232;;item141 , item139;delivery186
+Pay Order;224304;order73;;
+Load Cargo;224833;;item143 , item140;delivery175
+Pick Item;225258;;item148;
+Pay Order;225556;order76;;
+Load Cargo;225663;;item146 , item142;delivery9
+Pay Order;225701;order75;;
+Pick Item;225716;;item151;
+Pick Item;226622;;item153;
+Load Cargo;227020;;item144 , item148;delivery90
+Pay Order;227449;order79;;
+Pick Item;228170;;item159;
+Load Cargo;228459;;item153 , item151;delivery157
+Payment Reminder;228652;order81;;
+Payment Reminder;228708;order80;;
+Pick Item;228977;;item161;
+Payment Reminder;229227;order83;;
+Fuel Car;230146;;;delivery46
+Pick Item;230180;;item165;
+Payment Reminder;230224;order82;;
+Pick Item;230463;;item168;
+Load Cargo;230816;;item159 , item161;delivery127
+Pick Item;231035;;item166;
+Pick Item;231277;;item170;
+Pay Order;231639;order84;;
+Start Route;231676;;item319 , item321;delivery46
+Pick Item;232031;;item171;
+Pick Item;232131;;item172;
+Pick Item;232270;;item174;
+Load Cargo;232312;;item168 , item165;delivery34
+Pay Order;232339;order86;;
+Load Cargo;233148;;item166 , item170;delivery160
+Pick Item;233281;;item176;
+Pay Order;233385;order88;;
+Load Cargo;233900;;item172 , item171;delivery155
+Payment Reminder;233928;order89;;
+Pick Item;234049;;item177;
+Pick Item;234856;;item181;
+Payment Reminder;235096;order91;;
+Load Cargo;235132;;item176 , item174;delivery180
+Pick Item;235203;;item182;
+Pick Item;236288;;item184;
+Pay Order;236388;order93;;
+Pick Item;236430;;item186;
+Pick Item;236457;;item187;
+Load Cargo;236705;;item177 , item181;delivery191
+Pick Item;236994;;item191;
+Load Cargo;238136;;item184 , item182;delivery181
+Load Cargo;238258;;item187 , item186;delivery91
+Pick Item;239733;;item198;
+Payment Reminder;239781;order99;;
+Pick Item;239969;;item197;
+Load Cargo;241599;;item191 , item198;delivery66
+Pick Item;241813;;item207;
+Pick Item;242017;;item208;
+Pick Item;242107;;item204;
+Pick Item;242716;;item209;
+Pick Item;243377;;item211;
+Load Cargo;243659;;item207 , item197;delivery173
+Load Cargo;243902;;item208 , item204;delivery159
+Pick Item;243955;;item212;
+Payment Reminder;244372;order107;;
+Load Cargo;245193;;item209 , item211;delivery95
+Pick Item;245276;;item218;
+Pick Item;245397;;item219;
+Payment Reminder;245701;order108;;
+Pick Item;245778;;item217;
+Pick Item;246215;;item221;
+Payment Reminder;246265;order109;;
+Pay Order;247020;order110;;
+Pick Item;247036;;item225;
+Load Cargo;247070;;item212 , item218;delivery117
+Load Cargo;247640;;item217 , item219;delivery76
+Pay Order;247759;order111;;
+Pick Item;247909;;item226;
+Pay Order;247909;order112;;
+Pick Item;248070;;item228;
+Pick Item;248533;;item229;
+Pick Item;248676;;item227;
+Pick Item;248698;;item230;
+Load Cargo;248852;;item225 , item221;delivery39
+End Route;249573;;item319 , item321;delivery46
+Pick Item;249834;;item235;
+Load Cargo;249872;;item226 , item228;delivery195
+Payment Reminder;250117;order117;;
+Load Cargo;250477;;item227 , item229;delivery100
+Pick Item;250539;;item236;
+Pay Order;250626;order118;;
+Pick Item;250864;;item237;
+Pick Item;251560;;item240;
+Load Cargo;251653;;item235 , item230;delivery93
+Pick Item;252102;;item238;
+Pick Item;252394;;item243;
+Load Cargo;252670;;item236 , item237;delivery187
+Pay Order;252895;order120;;
+Payment Reminder;253380;order122;;
+Pick Item;253603;;item247;
+Load Cargo;253918;;item240 , item238;delivery166
+Pick Item;254334;;item248;
+Pick Item;254379;;item249;
+Load Cargo;255406;;item247 , item243;delivery114
+Pick Item;255563;;item253;
+Payment Reminder;255573;order125;;
+Pick Item;255611;;item250;
+Payment Reminder;255780;order126;;
+Load Cargo;256172;;item249 , item248;delivery103
+Pick Item;256175;;item255;
+Pick Item;256540;;item254;
+Pay Order;257026;order128;;
+Load Cargo;257409;;item250 , item253;delivery119
+Pay Order;257627;order129;;
+Pick Item;257766;;item256;
+Pick Item;257886;;item258;
+Pick Item;258188;;item259;
+Load Cargo;258353;;item255 , item254;delivery37
+Pick Item;259556;;item261;
+Pick Item;259559;;item265;
+Pay Order;259601;order132;;
+Load Cargo;259704;;item258 , item256;delivery22
+Pick Item;260269;;item268;
+Pick Item;260349;;item267;
+Pick Item;260949;;item271;
+Pick Item;261196;;item269;
+Load Cargo;261357;;item265 , item259;delivery193
+Load Cargo;262017;;item268 , item261;delivery183
+Pick Item;262038;;item275;
+Pick Item;262155;;item273;
+Pick Item;262370;;item274;
+Payment Reminder;262442;order137;;
+Pick Item;262443;;item279;
+Load Cargo;262850;;item271 , item267;delivery176
+Pay Order;263300;order139;;
+Pay Order;263658;order140;;
+Load Cargo;263877;;item275 , item269;delivery169
+Load Cargo;264189;;item273 , item274;delivery163
+Pay Order;264364;order141;;
+Pick Item;264648;;item283;
+Pick Item;264850;;item282;
+Pay Order;265049;order142;;
+Pick Item;265829;;item287;
+Payment Reminder;265831;order143;;
+Pick Item;266015;;item284;
+Load Cargo;266454;;item279 , item283;delivery121
+Pay Order;266729;order145;;
+Payment Reminder;266789;order144;;
+Pick Item;266801;;item288;
+Pick Item;267057;;item289;
+Pick Item;267625;;item291;
+Load Cargo;267677;;item287 , item282;delivery136
+Load Cargo;268633;;item288 , item284;delivery132
+Pick Item;269027;;item295;
+Payment Reminder;269141;order147;;
+Payment Reminder;269246;order149;;
+Load Cargo;269479;;item291 , item289;delivery188
+Pay Order;270376;order151;;
+Pick Item;270853;;item303;
+Pick Item;270885;;item301;
+Pick Item;270990;;item302;
+Pay Order;271419;order152;;
+Payment Reminder;271934;order154;;
+Pick Item;272328;;item311;
+Pick Item;272381;;item306;
+Pick Item;272583;;item309;
+Load Cargo;272600;;item295 , item303;delivery197
+Load Cargo;272811;;item301 , item302;delivery68
+Pay Order;273479;order155;;
+Pick Item;273657;;item313;
+Pick Item;274083;;item312;
+Load Cargo;274173;;item311 , item306;delivery165
+Pick Item;274778;;item314;
+Pick Item;275282;;item315;
+Load Cargo;275446;;item309 , item313;delivery62
+Pick Item;275647;;item320;
+Payment Reminder;275792;order159;;
+Pick Item;275809;;item317;
+Pick Item;276210;;item323;
+Pay Order;276522;order161;;
+Load Cargo;276560;;item314 , item312;delivery184
+Pick Item;276980;;item322;
+Load Cargo;277513;;item320 , item315;delivery170
+Pick Item;277546;;item324;
+Load Cargo;278046;;item323 , item317;delivery198
+Pick Item;278359;;item327;
+Pick Item;278648;;item329;
+Pay Order;279006;order165;;
+Pick Item;279313;;item331;
+Load Cargo;279351;;item322 , item324;delivery148
+Pick Item;279579;;item330;
+Pick Item;279581;;item333;
+Payment Reminder;279930;order166;;
+Load Cargo;280447;;item329 , item327;delivery152
+Pick Item;280704;;item334;
+Pick Item;280826;;item335;
+Pick Item;280907;;item336;
+Load Cargo;281390;;item330 , item331;delivery110
+Pay Order;281431;order168;;
+Load Cargo;282566;;item333 , item334;delivery126
+Load Cargo;282705;;item335 , item336;delivery190
+Pick Item;283033;;item343;
+Pick Item;283382;;item344;
+Pay Order;283612;order173;;
+Pick Item;283801;;item346;
+Pick Item;283950;;item345;
+Pick Item;284831;;item348;
+Payment Reminder;285135;order175;;
+Pick Item;285238;;item355;
+Load Cargo;285246;;item343 , item344;delivery178
+Load Cargo;285774;;item346 , item345;delivery171
+Pick Item;286060;;item354;
+Pay Order;286537;order177;;
+Pick Item;286770;;item353;
+Payment Reminder;287055;order178;;
+Load Cargo;287091;;item355 , item348;delivery199
+Pick Item;287113;;item359;
+Pay Order;287790;order179;;
+Pick Item;288404;;item361;
+Load Cargo;288518;;item353 , item354;delivery158
+Pick Item;289037;;item365;
+Pick Item;289571;;item366;
+Pick Item;289590;;item367;
+Payment Reminder;289935;order182;;
+Load Cargo;290151;;item359 , item361;delivery87
+Pay Order;290227;order183;;
+Pick Item;290555;;item368;
+Pick Item;291279;;item370;
+Load Cargo;291347;;item366 , item365;delivery149
+Payment Reminder;291624;order185;;
+Load Cargo;292379;;item367 , item368;delivery52
+Pick Item;292494;;item378;
+Pick Item;292526;;item374;
+Pay Order;292767;order188;;
+Pick Item;292901;;item376;
+Payment Reminder;292997;order189;;
+Pick Item;293230;;item381;
+Load Cargo;294330;;item370 , item374;delivery59
+Pick Item;294449;;item380;
+Load Cargo;294687;;item376 , item378;delivery161
+Payment Reminder;294905;order192;;
+Pay Order;295183;order193;;
+Pick Item;295498;;item386;
+Pick Item;296134;;item387;
+Load Cargo;296263;;item380 , item381;delivery172
+Payment Reminder;296428;order194;;
+Payment Reminder;296711;order195;;
+Pick Item;296880;;item391;
+Pick Item;297008;;item388;
+Pick Item;297720;;item392;
+Load Cargo;297894;;item386 , item387;delivery179
+Pick Item;298015;;item395;
+Payment Reminder;298427;order197;;
+Pick Item;298746;;item394;
+Load Cargo;298779;;item388 , item391;delivery104
+Pick Item;298997;;item397;
+Pay Order;299185;order199;;
+Load Cargo;299799;;item392 , item395;delivery145
+Load Cargo;300771;;item394 , item397;delivery185
+Pay Order;361377;order3;;
+Payment Reminder;367784;order13;;
+Payment Reminder;368731;order16;;
+Payment Reminder;368935;order14;;
+Fuel Car;371445;;;delivery60
+Start Route;372906;;item74 , item75;delivery60
+Fuel Car;374788;;;delivery152
+Pay Order;375096;order26;;
+Fuel Car;375125;;;delivery198
+Fuel Car;375554;;;delivery115
+Fuel Car;375898;;;delivery159
+Start Route;376363;;item329 , item327;delivery152
+Start Route;376574;;item323 , item317;delivery198
+Payment Reminder;376715;order27;;
+Start Route;377047;;item277 , item272;delivery115
+Start Route;377406;;item208 , item204;delivery159
+Payment Reminder;378479;order31;;
+Payment Reminder;381013;order36;;
+Pay Order;383185;order38;;
+Pay Order;388023;order45;;
+Payment Reminder;389175;order49;;
+Pay Order;390136;order50;;
+End Route;390871;;item74 , item75;delivery60
+Payment Reminder;392154;order52;;
+Pay Order;392573;order54;;
+End Route;394379;;item329 , item327;delivery152
+End Route;394490;;item323 , item317;delivery198
+Payment Reminder;394614;order57;;
+End Route;394980;;item277 , item272;delivery115
+Payment Reminder;395117;order58;;
+End Route;395545;;item208 , item204;delivery159
+Pay Order;398827;order66;;
+Payment Reminder;401103;order67;;
+Payment Reminder;401675;order70;;
+Fuel Car;404056;;;delivery153
+Fuel Car;405219;;;delivery129
+Fuel Car;405502;;;delivery80
+Start Route;405570;;item30 , item32;delivery153
+Fuel Car;406222;;;delivery62
+Start Route;406739;;item393 , item390;delivery129
+Start Route;406978;;item205 , item206;delivery80
+Start Route;407711;;item309 , item313;delivery62
+Pay Order;408308;order80;;
+Payment Reminder;408538;order81;;
+Pay Order;409431;order83;;
+Pay Order;411201;order82;;
+Payment Reminder;414499;order91;;
+Payment Reminder;414740;order89;;
+Payment Reminder;419646;order99;;
+End Route;423702;;item30 , item32;delivery153
+End Route;424775;;item393 , item390;delivery129
+Payment Reminder;425001;order107;;
+End Route;425107;;item205 , item206;delivery80
+Payment Reminder;425678;order108;;
+End Route;425752;;item309 , item313;delivery62
+Pay Order;425865;order109;;
+Pay Order;429488;order117;;
+Pay Order;433348;order122;;
+Fuel Car;434498;;;delivery189
+Payment Reminder;435472;order126;;
+Start Route;436076;;item36 , item34;delivery189
+Pay Order;436142;order125;;
+Pay Order;442490;order137;;
+Payment Reminder;446093;order143;;
+Pay Order;446977;order144;;
+Payment Reminder;449381;order147;;
+Payment Reminder;449652;order149;;
+Pay Order;452526;order154;;
+End Route;454032;;item36 , item34;delivery189
+Payment Reminder;455683;order159;;
+Pay Order;460094;order166;;
+Fuel Car;463244;;;delivery38
+Pay Order;464712;order175;;
+Start Route;464831;;item125 , item124;delivery38
+Pay Order;466522;order178;;
+Payment Reminder;469960;order182;;
+Pay Order;471727;order185;;
+Pay Order;472560;order189;;
+Payment Reminder;474267;order192;;
+Payment Reminder;475936;order194;;
+Pay Order;476760;order195;;
+Pay Order;478981;order197;;
+End Route;482874;;item125 , item124;delivery38
+Payment Reminder;547054;order13;;
+Payment Reminder;548166;order16;;
+Pay Order;549438;order14;;
+Payment Reminder;556619;order27;;
+Pay Order;558731;order31;;
+Payment Reminder;561272;order36;;
+Pay Order;569589;order49;;
+Payment Reminder;571912;order52;;
+Payment Reminder;574735;order57;;
+Payment Reminder;575138;order58;;
+Payment Reminder;581098;order70;;
+Payment Reminder;581797;order67;;
+Pay Order;588485;order81;;
+Pay Order;594253;order91;;
+Payment Reminder;595140;order89;;
+Pay Order;599290;order99;;
+Pay Order;604614;order107;;
+Payment Reminder;605606;order108;;
+Pay Order;616005;order126;;
+Fuel Car;620701;;;delivery151
+Start Route;622265;;item135 , item138;delivery151
+Pay Order;625822;order143;;
+Pay Order;629302;order149;;
+Payment Reminder;629485;order147;;
+Payment Reminder;636102;order159;;
+End Route;640347;;item135 , item138;delivery151
+Pay Order;649289;order182;;
+Pay Order;654343;order192;;
+Pay Order;655923;order194;;
+Pay Order;726989;order13;;
+Payment Reminder;728515;order16;;
+Pay Order;737078;order27;;
+Payment Reminder;741176;order36;;
+Pay Order;752405;order52;;
+Pay Order;754041;order57;;
+Payment Reminder;754652;order58;;
+Pay Order;760676;order70;;
+Fuel Car;761644;;;delivery123
+Payment Reminder;761651;order67;;
+Start Route;763201;;item384 , item389;delivery123
+Fuel Car;764383;;;delivery132
+Fuel Car;765094;;;delivery139
+Start Route;765949;;item288 , item284;delivery132
+Start Route;766613;;item372 , item373;delivery139
+Pay Order;774986;order89;;
+End Route;781530;;item384 , item389;delivery123
+End Route;784255;;item288 , item284;delivery132
+End Route;784626;;item372 , item373;delivery139
+Payment Reminder;785933;order108;;
+Fuel Car;792459;;;delivery40
+Start Route;794023;;item69 , item80;delivery40
+Fuel Car;795156;;;delivery140
+Fuel Car;795360;;;delivery182
+Fuel Car;796100;;;delivery181
+Fuel Car;796259;;;delivery173
+Start Route;796703;;item297 , item296;delivery140
+Start Route;796854;;item95 , item97;delivery182
+Start Route;797611;;item184 , item182;delivery181
+Start Route;797814;;item207 , item197;delivery173
+Pay Order;809062;order147;;
+End Route;811959;;item69 , item80;delivery40
+End Route;814615;;item95 , item97;delivery182
+End Route;814786;;item297 , item296;delivery140
+End Route;815533;;item184 , item182;delivery181
+End Route;816105;;item207 , item197;delivery173
+Pay Order;817164;order159;;
+Fuel Car;825416;;;delivery174
+Fuel Car;825543;;;delivery14
+Fuel Car;825587;;;delivery98
+Start Route;826923;;item360 , item362;delivery174
+Start Route;827029;;item28 , item27;delivery14
+Start Route;827100;;item246 , item251;delivery98
+End Route;844962;;item360 , item362;delivery174
+End Route;845019;;item28 , item27;delivery14
+End Route;845096;;item246 , item251;delivery98
+Fuel Car;854194;;;delivery144
+Start Route;855734;;item350 , item351;delivery144
+Fuel Car;855746;;;delivery69
+Fuel Car;855880;;;delivery35
+Start Route;857268;;item239 , item234;delivery69
+Start Route;857370;;item117 , item116;delivery35
+End Route;873633;;item350 , item351;delivery144
+End Route;875358;;item239 , item234;delivery69
+End Route;875389;;item117 , item116;delivery35
+Fuel Car;884447;;;delivery116
+Start Route;885937;;item63 , item71;delivery116
+Fuel Car;886324;;;delivery165
+Start Route;887809;;item311 , item306;delivery165
+End Route;903776;;item63 , item71;delivery116
+End Route;906130;;item311 , item306;delivery165
+Pay Order;908475;order16;;
+Fuel Car;917183;;;delivery178
+Start Route;918719;;item343 , item344;delivery178
+Payment Reminder;921604;order36;;
+Payment Reminder;935929;order58;;
+End Route;936821;;item343 , item344;delivery178
+Pay Order;941897;order67;;
+Fuel Car;947545;;;delivery32
+Start Route;949089;;item88 , item89;delivery32
+Payment Reminder;966108;order108;;
+End Route;967135;;item88 , item89;delivery32
+Fuel Car;978102;;;delivery82
+Start Route;979655;;item189 , item190;delivery82
+End Route;997537;;item189 , item190;delivery82
+Fuel Car;1011720;;;delivery55
+Start Route;1013243;;item252 , item257;delivery55
+End Route;1031235;;item252 , item257;delivery55
+Pay Order;1101225;order36;;
+Payment Reminder;1116292;order58;;
+Pay Order;1146182;order108;;
+Fuel Car;1155248;;;delivery45
+Start Route;1156747;;item87 , item86;delivery45
+End Route;1174859;;item87 , item86;delivery45
+Fuel Car;1183655;;;delivery22
+Start Route;1185144;;item258 , item256;delivery22
+Fuel Car;1186512;;;delivery41
+Fuel Car;1187715;;;delivery5
+Start Route;1188043;;item90 , item93;delivery41
+Start Route;1189231;;item16 , item15;delivery5
+End Route;1203168;;item258 , item256;delivery22
+End Route;1206015;;item90 , item93;delivery41
+End Route;1207095;;item16 , item15;delivery5
+Fuel Car;1215124;;;delivery157
+Start Route;1216664;;item153 , item151;delivery157
+Fuel Car;1217909;;;delivery84
+Start Route;1219475;;item7 , item6;delivery84
+End Route;1234891;;item153 , item151;delivery157
+End Route;1237526;;item7 , item6;delivery84
+Fuel Car;1245537;;;delivery188
+Start Route;1247072;;item291 , item289;delivery188
+Fuel Car;1248374;;;delivery9
+Start Route;1249858;;item146 , item142;delivery9
+End Route;1265266;;item291 , item289;delivery188
+End Route;1267948;;item146 , item142;delivery9
+Fuel Car;1274693;;;delivery187
+Fuel Car;1275925;;;delivery21
+Start Route;1276191;;item236 , item237;delivery187
+Start Route;1277489;;item55 , item54;delivery21
+Fuel Car;1278795;;;delivery156
+Start Route;1280285;;item122 , item132;delivery156
+End Route;1294130;;item236 , item237;delivery187
+End Route;1295484;;item55 , item54;delivery21
+Pay Order;1295899;order58;;
+End Route;1298318;;item122 , item132;delivery156
+Fuel Car;1305089;;;delivery8
+Start Route;1306550;;item49 , item48;delivery8
+End Route;1324844;;item49 , item48;delivery8
+Fuel Car;1368365;;;delivery71
+Start Route;1369881;;item120 , item121;delivery71
+End Route;1387670;;item120 , item121;delivery71
+Fuel Car;1398484;;;delivery75
+Start Route;1400059;;item352 , item356;delivery75
+Fuel Car;1402049;;;delivery199
+Start Route;1403568;;item355 , item348;delivery199
+End Route;1417962;;item352 , item356;delivery75
+End Route;1421828;;item355 , item348;delivery199
+Fuel Car;1545843;;;delivery13
+Start Route;1547425;;item285 , item286;delivery13
+End Route;1565217;;item285 , item286;delivery13
+Fuel Car;1574629;;;delivery76
+Fuel Car;1575904;;;delivery70
+Fuel Car;1575967;;;delivery130
+Start Route;1576118;;item217 , item219;delivery76
+Start Route;1577413;;item242 , item241;delivery70
+Start Route;1577442;;item47 , item50;delivery130
+End Route;1593890;;item217 , item219;delivery76
+End Route;1595279;;item47 , item50;delivery130
+End Route;1595442;;item242 , item241;delivery70
+Fuel Car;1604519;;;delivery97
+Fuel Car;1604994;;;delivery131
+Start Route;1606023;;item300 , item304;delivery97
+Fuel Car;1606100;;;delivery24
+Start Route;1606530;;item281 , item280;delivery131
+Start Route;1607674;;item62 , item60;delivery24
+End Route;1623824;;item300 , item304;delivery97
+End Route;1624402;;item281 , item280;delivery131
+End Route;1625874;;item62 , item60;delivery24
+Fuel Car;1634531;;;delivery77
+Fuel Car;1635316;;;delivery166
+Start Route;1636045;;item154 , item157;delivery77
+Fuel Car;1636740;;;delivery36
+Start Route;1636818;;item240 , item238;delivery166
+Start Route;1638255;;item128 , item129;delivery36
+End Route;1654145;;item154 , item157;delivery77
+End Route;1655106;;item240 , item238;delivery166
+End Route;1656211;;item128 , item129;delivery36
+Fuel Car;1665714;;;delivery92
+Start Route;1667271;;item232 , item233;delivery92
+Fuel Car;1669515;;;delivery83
+Start Route;1671068;;item307 , item305;delivery83
+End Route;1685367;;item232 , item233;delivery92
+End Route;1688956;;item307 , item305;delivery83
+Fuel Car;1695930;;;delivery4
+Start Route;1697434;;item99 , item103;delivery4
+End Route;1715545;;item99 , item103;delivery4
+Fuel Car;1789513;;;delivery26
+Start Route;1790936;;item51 , item52;delivery26
+Fuel Car;1793747;;;delivery29
+Start Route;1795229;;item64 , item65;delivery29
+End Route;1808781;;item51 , item52;delivery26
+End Route;1813228;;item64 , item65;delivery29
+Fuel Car;1819746;;;delivery10
+Start Route;1821282;;item84 , item85;delivery10
+End Route;1839292;;item84 , item85;delivery10
+Fuel Car;1966537;;;delivery49
+Start Route;1968123;;item326 , item325;delivery49
+End Route;1986283;;item326 , item325;delivery49
+Fuel Car;2023621;;;delivery112
+Fuel Car;2025088;;;delivery106
+Start Route;2025115;;item270 , item266;delivery112
+Fuel Car;2026318;;;delivery134
+Start Route;2026589;;item214 , item215;delivery106
+Start Route;2027842;;item22 , item23;delivery134
+End Route;2043377;;item270 , item266;delivery112
+End Route;2044583;;item214 , item215;delivery106
+End Route;2045900;;item22 , item23;delivery134
+Fuel Car;2056319;;;delivery37
+Fuel Car;2056745;;;delivery58
+Start Route;2057808;;item255 , item254;delivery37
+Start Route;2058249;;item123 , item119;delivery58
+Fuel Car;2060590;;;delivery81
+Start Route;2062048;;item96 , item98;delivery81
+End Route;2075691;;item255 , item254;delivery37
+End Route;2076180;;item123 , item119;delivery58
+End Route;2080239;;item96 , item98;delivery81
+Fuel Car;2086813;;;delivery27
+Fuel Car;2086903;;;delivery185
+Start Route;2088374;;item59 , item61;delivery27
+Start Route;2088445;;item394 , item397;delivery185
+Fuel Car;2090965;;;delivery68
+Start Route;2092507;;item301 , item302;delivery68
+End Route;2106354;;item59 , item61;delivery27
+End Route;2106522;;item394 , item397;delivery185
+End Route;2110547;;item301 , item302;delivery68
+Fuel Car;2183756;;;delivery136
+Start Route;2185262;;item287 , item282;delivery136
+End Route;2203172;;item287 , item282;delivery136
+Fuel Car;2210209;;;delivery110
+Start Route;2211713;;item330 , item331;delivery110
+Fuel Car;2214033;;;delivery113
+Start Route;2215536;;item382 , item385;delivery113
+End Route;2229561;;item330 , item331;delivery110
+End Route;2233654;;item382 , item385;delivery113
+Fuel Car;2244449;;;delivery109
+Start Route;2245942;;item137 , item134;delivery109
+End Route;2264118;;item137 , item134;delivery109
+Fuel Car;2274962;;;delivery133
+Start Route;2276505;;item347 , item349;delivery133
+End Route;2294432;;item347 , item349;delivery133
+Fuel Car;2357336;;;delivery74
+Start Route;2358832;;item293 , item290;delivery74
+End Route;2376665;;item293 , item290;delivery74
+Fuel Car;2414723;;;delivery160
+Fuel Car;2415055;;;delivery108
+Start Route;2416234;;item166 , item170;delivery160
+Start Route;2416499;;item78 , item79;delivery108
+End Route;2434375;;item166 , item170;delivery160
+End Route;2434393;;item78 , item79;delivery108
+Fuel Car;2445119;;;delivery28
+Fuel Car;2445170;;;delivery196
+Fuel Car;2445576;;;delivery20
+Start Route;2446657;;item150 , item149;delivery28
+Start Route;2446672;;item8 , item9;delivery196
+Start Route;2447132;;item37 , item38;delivery20
+End Route;2464689;;item150 , item149;delivery28
+End Route;2464847;;item8 , item9;delivery196
+End Route;2465092;;item37 , item38;delivery20
+Fuel Car;2475608;;;delivery172
+Fuel Car;2475686;;;delivery78
+Fuel Car;2476316;;;delivery146
+Start Route;2477123;;item380 , item381;delivery172
+Start Route;2477244;;item169 , item167;delivery78
+Fuel Car;2477425;;;delivery148
+Start Route;2477878;;item101 , item100;delivery146
+Start Route;2478899;;item322 , item324;delivery148
+Fuel Car;2480812;;;delivery125
+Start Route;2482301;;item328 , item332;delivery125
+End Route;2494818;;item380 , item381;delivery172
+End Route;2495343;;item169 , item167;delivery78
+End Route;2495821;;item101 , item100;delivery146
+End Route;2496835;;item322 , item324;delivery148
+End Route;2500160;;item328 , item332;delivery125
+Fuel Car;2506733;;;delivery143
+Fuel Car;2507577;;;delivery96
+Start Route;2508276;;item299 , item298;delivery143
+Start Route;2509045;;item223 , item222;delivery96
+Fuel Car;2510858;;;delivery87
+Start Route;2512314;;item359 , item361;delivery87
+End Route;2526235;;item299 , item298;delivery143
+End Route;2527020;;item223 , item222;delivery96
+End Route;2530459;;item359 , item361;delivery87
+Fuel Car;2537666;;;delivery91
+Start Route;2539159;;item187 , item186;delivery91
+End Route;2557156;;item187 , item186;delivery91
+Fuel Car;2568050;;;delivery150
+Start Route;2569628;;item43 , item40;delivery150
+End Route;2587626;;item43 , item40;delivery150
+Fuel Car;2599493;;;delivery163
+Start Route;2601037;;item273 , item274;delivery163
+End Route;2619277;;item273 , item274;delivery163
+Fuel Car;2664382;;;delivery89
+Start Route;2665869;;item213 , item210;delivery89
+End Route;2683979;;item213 , item210;delivery89
+Fuel Car;2694732;;;delivery79
+Start Route;2696269;;item164 , item163;delivery79
+End Route;2714196;;item164 , item163;delivery79
+Fuel Car;2746596;;;delivery101
+Start Route;2748094;;item13 , item14;delivery101
+End Route;2766093;;item13 , item14;delivery101
+Fuel Car;2776754;;;delivery2
+Start Route;2778209;;item35 , item33;delivery2
+End Route;2796046;;item35 , item33;delivery2
+Fuel Car;2806859;;;delivery119
+Start Route;2808432;;item250 , item253;delivery119
+End Route;2826358;;item250 , item253;delivery119
+Fuel Car;2836115;;;delivery155
+Fuel Car;2837181;;;delivery147
+Start Route;2837598;;item172 , item171;delivery155
+Start Route;2838717;;item369 , item371;delivery147
+End Route;2855849;;item172 , item171;delivery155
+End Route;2856732;;item369 , item371;delivery147
+Fuel Car;2865256;;;delivery61
+Fuel Car;2866001;;;delivery6
+Start Route;2866744;;item195 , item194;delivery61
+Start Route;2867567;;item21 , item19;delivery6
+End Route;2884659;;item195 , item194;delivery61
+End Route;2885490;;item21 , item19;delivery6
+Fuel Car;2896484;;;delivery171
+Start Route;2898019;;item346 , item345;delivery171
+Fuel Car;2901214;;;delivery141
+Start Route;2902745;;item338 , item341;delivery141
+End Route;2916054;;item346 , item345;delivery171
+End Route;2920684;;item338 , item341;delivery141
+Fuel Car;2959242;;;delivery56
+Start Route;2960709;;item175 , item173;delivery56
+End Route;2978903;;item175 , item173;delivery56
+Fuel Car;2990615;;;delivery164
+Start Route;2992112;;item105 , item108;delivery164
+End Route;3010198;;item105 , item108;delivery164
+Fuel Car;3085728;;;delivery47
+Start Route;3087235;;item340 , item342;delivery47
+End Route;3105215;;item340 , item342;delivery47
+Fuel Car;3116142;;;delivery186
+Start Route;3117706;;item141 , item139;delivery186
+End Route;3135930;;item141 , item139;delivery186
+Fuel Car;3146790;;;delivery149
+Start Route;3148333;;item366 , item365;delivery149
+End Route;3166537;;item366 , item365;delivery149
+Fuel Car;3226284;;;delivery124
+Start Route;3227814;;item398 , item396;delivery124
+Fuel Car;3228178;;;delivery137
+Start Route;3229696;;item379 , item383;delivery137
+End Route;3245643;;item398 , item396;delivery124
+End Route;3247720;;item379 , item383;delivery137
+Fuel Car;3255405;;;delivery183
+Fuel Car;3256103;;;delivery195
+Fuel Car;3256400;;;delivery31
+Start Route;3256916;;item268 , item261;delivery183
+Start Route;3257607;;item226 , item228;delivery195
+Start Route;3257890;;item57 , item56;delivery31
+End Route;3274942;;item268 , item261;delivery183
+End Route;3275649;;item226 , item228;delivery195
+End Route;3275818;;item57 , item56;delivery31
+Fuel Car;3286546;;;delivery180
+Fuel Car;3286663;;;delivery118
+Start Route;3288051;;item176 , item174;delivery180
+Start Route;3288148;;item76 , item77;delivery118
+Fuel Car;3291963;;;delivery179
+Start Route;3293402;;item386 , item387;delivery179
+End Route;3306044;;item176 , item174;delivery180
+End Route;3306414;;item76 , item77;delivery118
+End Route;3311381;;item386 , item387;delivery179
+Fuel Car;3348949;;;delivery176
+Start Route;3350425;;item271 , item267;delivery176
+End Route;3368415;;item271 , item267;delivery176
+Fuel Car;3379340;;;delivery194
+Fuel Car;3380754;;;delivery128
+Start Route;3380880;;item68 , item73;delivery194
+Start Route;3382241;;item262 , item264;delivery128
+End Route;3398899;;item68 , item73;delivery194
+End Route;3400322;;item262 , item264;delivery128
+Fuel Car;3538008;;;delivery99
+Start Route;3539572;;item136 , item131;delivery99
+End Route;3557732;;item136 , item131;delivery99
+Fuel Car;3568559;;;delivery161
+Start Route;3570090;;item376 , item378;delivery161
+End Route;3588311;;item376 , item378;delivery161
+Fuel Car;3599210;;;delivery197
+Start Route;3600715;;item295 , item303;delivery197
+Fuel Car;3618908;;;delivery142
+End Route;3618948;;item295 , item303;delivery197
+Start Route;3620454;;item70 , item72;delivery142
+End Route;3638409;;item70 , item72;delivery142
+Fuel Car;3646405;;;delivery85
+Fuel Car;3646546;;;delivery103
+Start Route;3647908;;item188 , item185;delivery85
+Start Route;3648039;;item249 , item248;delivery103
+End Route;3665880;;item188 , item185;delivery85
+End Route;3666043;;item249 , item248;delivery103
+Fuel Car;3676385;;;delivery50
+Fuel Car;3676582;;;delivery167
+Fuel Car;3676632;;;delivery33
+Start Route;3677875;;item110 , item111;delivery50
+Start Route;3678077;;item82 , item81;delivery167
+Start Route;3678172;;item183 , item180;delivery33
+Fuel Car;3683174;;;delivery18
+Start Route;3684650;;item364 , item363;delivery18
+End Route;3696012;;item110 , item111;delivery50
+End Route;3696184;;item82 , item81;delivery167
+End Route;3696215;;item183 , item180;delivery33
+End Route;3702462;;item364 , item363;delivery18
+Fuel Car;3713147;;;delivery145
+Start Route;3714631;;item392 , item395;delivery145
+End Route;3732515;;item392 , item395;delivery145
+Fuel Car;3743369;;;delivery7
+Start Route;3744867;;item10 , item12;delivery7
+End Route;3762976;;item10 , item12;delivery7
+Fuel Car;3769495;;;delivery48
+Start Route;3771030;;item133 , item130;delivery48
+Fuel Car;3771225;;;delivery63
+Start Route;3772714;;item147 , item145;delivery63
+Fuel Car;3773773;;;delivery93
+Start Route;3775294;;item235 , item230;delivery93
+End Route;3788978;;item133 , item130;delivery48
+End Route;3790929;;item147 , item145;delivery63
+End Route;3793351;;item235 , item230;delivery93
+Fuel Car;3989882;;;delivery111
+Start Route;3991341;;item94 , item92;delivery111
+End Route;4009191;;item94 , item92;delivery111
+Fuel Car;4010394;;;delivery65
+Start Route;4011944;;item202 , item203;delivery65
+End Route;4029798;;item202 , item203;delivery65
+Fuel Car;4036354;;;delivery51
+Start Route;4037905;;item127 , item126;delivery51
+End Route;4055783;;item127 , item126;delivery51
+Fuel Car;4066205;;;delivery170
+Fuel Car;4066640;;;delivery105
+Fuel Car;4067546;;;delivery177
+Start Route;4067702;;item320 , item315;delivery170
+Fuel Car;4067749;;;delivery86
+Start Route;4068177;;item24 , item25;delivery105
+Start Route;4069141;;item17 , item18;delivery177
+Start Route;4069300;;item357 , item358;delivery86
+End Route;4085852;;item320 , item315;delivery170
+End Route;4085934;;item24 , item25;delivery105
+End Route;4087226;;item17 , item18;delivery177
+End Route;4087650;;item357 , item358;delivery86
+Fuel Car;4096621;;;delivery169
+Fuel Car;4098011;;;delivery25
+Start Route;4098153;;item275 , item269;delivery169
+Start Route;4099539;;item106 , item107;delivery25
+End Route;4116166;;item275 , item269;delivery169
+End Route;4117786;;item106 , item107;delivery25
+Fuel Car;4128621;;;delivery19
+Start Route;4130089;;item46 , item45;delivery19
+End Route;4147977;;item46 , item45;delivery19
+Fuel Car;4158673;;;delivery59
+Fuel Car;4159958;;;delivery184
+Start Route;4160148;;item370 , item374;delivery59
+Start Route;4161562;;item314 , item312;delivery184
+Fuel Car;4162026;;;delivery190
+Fuel Car;4163322;;;delivery95
+Start Route;4163586;;item335 , item336;delivery190
+Start Route;4164863;;item209 , item211;delivery95
+End Route;4178103;;item370 , item374;delivery59
+End Route;4179408;;item314 , item312;delivery184
+End Route;4181375;;item335 , item336;delivery190
+End Route;4183194;;item209 , item211;delivery95
+Fuel Car;4188817;;;delivery138
+Start Route;4190244;;item118 , item115;delivery138
+End Route;4208144;;item118 , item115;delivery138
+Fuel Car;4379874;;;delivery100
+Start Route;4381368;;item227 , item229;delivery100
+End Route;4399586;;item227 , item229;delivery100
+Fuel Car;4400182;;;delivery90
+Start Route;4401689;;item144 , item148;delivery90
+Fuel Car;4410485;;;delivery34
+Start Route;4412013;;item168 , item165;delivery34
+End Route;4419849;;item144 , item148;delivery90
+End Route;4430050;;item168 , item165;delivery34
+Fuel Car;4430585;;;delivery12
+Start Route;4432067;;item41 , item44;delivery12
+Fuel Car;4441017;;;delivery23
+Start Route;4442511;;item179 , item178;delivery23
+End Route;4449984;;item41 , item44;delivery12
+Fuel Car;4456285;;;delivery104
+Start Route;4457746;;item388 , item391;delivery104
+Fuel Car;4458487;;;delivery73
+Start Route;4459962;;item162 , item160;delivery73
+End Route;4460612;;item179 , item178;delivery23
+Fuel Car;4460768;;;delivery127
+Start Route;4462273;;item159 , item161;delivery127
+Fuel Car;4471496;;;delivery114
+Start Route;4473013;;item247 , item243;delivery114
+End Route;4475538;;item388 , item391;delivery104
+End Route;4477986;;item162 , item160;delivery73
+End Route;4480393;;item159 , item161;delivery127
+Fuel Car;4486312;;;delivery121
+Fuel Car;4486364;;;delivery42
+Start Route;4487796;;item279 , item283;delivery121
+Start Route;4487863;;item155 , item152;delivery42
+Fuel Car;4488899;;;delivery162
+Start Route;4490465;;item83 , item91;delivery162
+End Route;4491152;;item247 , item243;delivery114
+Fuel Car;4491155;;;delivery53
+Start Route;4492673;;item224 , item231;delivery53
+End Route;4505741;;item279 , item283;delivery121
+End Route;4505871;;item155 , item152;delivery42
+End Route;4508254;;item83 , item91;delivery162
+End Route;4510937;;item224 , item231;delivery53
+Fuel Car;4516788;;;delivery11
+Start Route;4518287;;item66 , item67;delivery11
+End Route;4536547;;item66 , item67;delivery11
+Fuel Car;4547458;;;delivery168
+Start Route;4548969;;item109 , item113;delivery168
+Fuel Car;4549494;;;delivery126
+Start Route;4550983;;item333 , item334;delivery126
+Fuel Car;4551508;;;delivery158
+Start Route;4552996;;item353 , item354;delivery158
+Fuel Car;4553911;;;delivery175
+Start Route;4555395;;item143 , item140;delivery175
+End Route;4566969;;item109 , item113;delivery168
+End Route;4568874;;item333 , item334;delivery126
+End Route;4571110;;item353 , item354;delivery158
+End Route;4573385;;item143 , item140;delivery175
+Fuel Car;4577789;;;delivery107
+Fuel Car;4578580;;;delivery192
+Start Route;4579269;;item276 , item278;delivery107
+Start Route;4580066;;item53 , item58;delivery192
+End Route;4597386;;item276 , item278;delivery107
+End Route;4598099;;item53 , item58;delivery192
+Fuel Car;4608293;;;delivery44
+Start Route;4609741;;item114 , item112;delivery44
+End Route;4627523;;item114 , item112;delivery44
+Fuel Car;4862767;;;delivery94
+Start Route;4864301;;item244 , item245;delivery94
+Fuel Car;4876765;;;delivery117
+Start Route;4878285;;item212 , item218;delivery117
+Fuel Car;4879807;;;delivery88
+Fuel Car;4880695;;;delivery57
+Start Route;4881330;;item339 , item337;delivery88
+Start Route;4882160;;item308 , item310;delivery57
+End Route;4882190;;item244 , item245;delivery94
+Fuel Car;4893095;;;delivery72
+Start Route;4894563;;item102 , item104;delivery72
+End Route;4896262;;item212 , item218;delivery117
+End Route;4899239;;item339 , item337;delivery88
+End Route;4900370;;item308 , item310;delivery57
+Fuel Car;4906954;;;delivery15
+Start Route;4908513;;item193 , item192;delivery15
+Fuel Car;4911067;;;delivery102
+End Route;4912505;;item102 , item104;delivery72
+Start Route;4912558;;item201 , item200;delivery102
+End Route;4926622;;item193 , item192;delivery15
+End Route;4930615;;item201 , item200;delivery102
+Fuel Car;4937343;;;delivery122
+Start Route;4938815;;item294 , item292;delivery122
+Fuel Car;4938915;;;delivery43
+Start Route;4940454;;item375 , item377;delivery43
+Fuel Car;4941381;;;delivery54
+Fuel Car;4942266;;;delivery52
+Start Route;4942896;;item158 , item156;delivery54
+Start Route;4943735;;item367 , item368;delivery52
+Fuel Car;4944414;;;delivery39
+Start Route;4945899;;item225 , item221;delivery39
+End Route;4956542;;item294 , item292;delivery122
+End Route;4958354;;item375 , item377;delivery43
+End Route;4960797;;item158 , item156;delivery54
+End Route;4961734;;item367 , item368;delivery52
+End Route;4964088;;item225 , item221;delivery39
+Fuel Car;4967472;;;delivery135
+Fuel Car;4968869;;;delivery154
+Start Route;4968991;;item318 , item316;delivery135
+Start Route;4970460;;item31 , item29;delivery154
+Fuel Car;4971450;;;delivery30
+Fuel Car;4972542;;;delivery191
+Start Route;4972976;;item260 , item263;delivery30
+Start Route;4974043;;item177 , item181;delivery191
+End Route;4987216;;item318 , item316;delivery135
+End Route;4988575;;item31 , item29;delivery154
+End Route;4991013;;item260 , item263;delivery30
+End Route;4992028;;item177 , item181;delivery191
+Fuel Car;4998165;;;delivery66
+Start Route;4999674;;item191 , item198;delivery66
+Fuel Car;5001738;;;delivery120
+Start Route;5003263;;item5 , item399;delivery120
+End Route;5017579;;item191 , item198;delivery66
+End Route;5021276;;item5 , item399;delivery120
+Fuel Car;5032154;;;delivery64
+Start Route;5033641;;item196 , item199;delivery64
+End Route;5051690;;item196 , item199;delivery64
+Fuel Car;5062411;;;delivery193
+Start Route;5063950;;item265 , item259;delivery193
+End Route;5081838;;item265 , item259;delivery193
