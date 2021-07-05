@@ -532,11 +532,15 @@ def main():
 
     ocpn = ocpn_discovery_factory.apply(mdl_df)
     gviz = pn_vis_factory.apply(ocpn, variant="control_flow", parameters={"format": "svg"})
-    pn_vis_factory.save(gviz,"om___.svg")
+    pn_vis_factory.save(gviz,"object_model_mined.svg")
     t0 = time.time()
     contexts, bindings = calculate_context(event_df, ots)
     flower_ocpn = create_flower_model(ocpn,ots)
+    gviz = pn_vis_factory.apply(flower_ocpn, variant="control_flow", parameters={"format": "svg"})
+    pn_vis_factory.save(gviz,"object_model_flower.svg")
     underfit = create_underfit()
+    gviz = pn_vis_factory.apply(underfit, variant="control_flow", parameters={"format": "svg"})
+    pn_vis_factory.save(gviz,"object_model_restricted.svg")
     good_ocpn = None
     transs = [t for t in ocpn.transitions if t.name == "Item out of stock"][0]
     transr = [t for t in ocpn.transitions if t.name == "Reorder Item"][0]
@@ -573,7 +577,8 @@ def main():
             t_1.out_arcs.add(add_a)
             good_ocpn = ObjectCentricPetriNet(places = ocpn.places, transitions = [t_ for t_ in ocpn.transitions+[t_1,t_2]  if t_!=t and t_!=t11], arcs = [a  for a in ocpn.arcs+[a_in_1,a_in_2,a_out_2,add_a] if a not in t.in_arcs and a not in t.out_arcs and a != a3in and a!= a3out and a != at11_out])
     
-    
+    gviz = pn_vis_factory.apply(good_ocpn, variant="control_flow", parameters={"format": "svg"})
+    pn_vis_factory.save(gviz,"object_model_appropriate.svg")
     total = time.time()-t0
     #print(contexts)
     print("Calculating contexts")
